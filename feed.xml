@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-22T18:16:59+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-22T19:04:20+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world&lt;/a&gt; article has the links to all the dev tools&lt;/li&gt;
@@ -86,30 +86,30 @@
 
 &lt;p&gt;And, this article amongst rest are written in &lt;a href=&quot;&quot;&gt;Markdown&lt;/a&gt; with &lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;&quot;&gt;Docsify&lt;/a&gt;. It is a documentation site generator with &lt;a href=&quot;&quot;&gt;a great community support&lt;/a&gt;. &lt;a href=&quot;&quot;&gt;Awesome Docsify&lt;/a&gt; is a good source of information. &lt;a href=&quot;&quot;&gt;I played around a bit with Docsify&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;wrote a plugin or two&lt;/a&gt; as well for my needs, but that was before I picked Jekyll and it’s still a work in-progress.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry><entry><title type="html">Productivity tools</title><link href="https://kosalanuwan.github.io/bliki/etc/productivity-tools/" rel="alternate" type="text/html" title="Productivity tools" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/productivity-tools</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/productivity-tools/">&lt;p&gt;Here’s my deliberate efforts to stay productive and plan out my days. These tools and techniques are based on my personal preference and what works for me my not work for you. Also, I may have literally let go of some of these, with :heart: of course, for employers and clientele preferences. For starters, you want to have a look at Scot Hanselman’s talk &lt;a href=&quot;https://www.youtube.com/watch?v=IWPgUn8tL8s&quot;&gt;on Scaling Yourself&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;&quot;&gt;Docsify&lt;/a&gt;. It is a documentation site generator with &lt;a href=&quot;&quot;&gt;a great community support&lt;/a&gt;. &lt;a href=&quot;&quot;&gt;Awesome Docsify&lt;/a&gt; is a good source of information. &lt;a href=&quot;&quot;&gt;I played around a bit with Docsify&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;wrote a plugin or two&lt;/a&gt; as well for my needs, but that was before I picked Jekyll and it’s still a work in-progress.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry><entry><title type="html">Productivity tools</title><link href="https://kosalanuwan.github.io/bliki/etc/productivity-tools/" rel="alternate" type="text/html" title="Productivity tools" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/productivity-tools</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/productivity-tools/">&lt;p&gt;Here’s my deliberate efforts to stay productive and plan out my daily routines. These tools and techniques are based on my personal preference and what works for me my not work for you. Also, I may have literally let go of some of these, with :heart: of course, for employers and clientele preferences. For starters, you want to have a look at Scot Hanselman’s talk &lt;a href=&quot;https://www.youtube.com/watch?v=IWPgUn8tL8s&quot;&gt;on Scaling Yourself&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#notes&quot;&gt;Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#task-tracking&quot;&gt;Task Tracking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#reminders&quot;&gt;Reminders&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#emails&quot;&gt;Emails&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#notes&quot;&gt;Notes&lt;/a&gt; written in markdown using &lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#task-tracking&quot;&gt;Task Tracking&lt;/a&gt; using &lt;a href=&quot;https://github.com/kosalanuwan&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reminders&quot;&gt;Reminders&lt;/a&gt; and invites on a calendar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#emails&quot;&gt;Emails&lt;/a&gt; are filtered using Outlook rules&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reading&quot;&gt;Reading&lt;/a&gt; as in books are only on Audible&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#budgets&quot;&gt;Budgets&lt;/a&gt; are planned monthly using Google Keep&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+&lt;p&gt;I interact with GitHub daily so &lt;a href=&quot;/bliki/hello-world/&quot;&gt;why not use it for everything else&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I interact with &lt;a href=&quot;https://github.com/kosalanuwan&quot;&gt;GitHub&lt;/a&gt; daily so why not use it for everything else.&lt;/p&gt;
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Written in &lt;a href=&quot;&quot;&gt;Markdown&lt;/a&gt; using &lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Current employer use &lt;a href=&quot;&quot;&gt;Sharepoint&lt;/a&gt; for various documentation and templates, and some of the former employers used &lt;a href=&quot;&quot;&gt;Confluence&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;Google Sites&lt;/a&gt;. Same goes when it comes to clientele.&lt;/p&gt;
+&lt;p&gt;Previously used OneNote, Evernote, Workflowy, Dropbox Paper, and even Notion.&lt;/p&gt;
 
 &lt;h3 id=&quot;task-tracking&quot;&gt;Task Tracking&lt;/h3&gt;
-
-&lt;p&gt;Everything’s on &lt;a href=&quot;https://github.com/join&quot;&gt;GitHub&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;GitHub Issues&lt;/a&gt; for task and bug tracking&lt;/li&gt;
@@ -117,7 +117,7 @@
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Labels&lt;/a&gt; to categorize based on features, bugs, and whatnot&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Current employer has homegrown enterprise tools with &lt;a href=&quot;&quot;&gt;Microsoft Project&lt;/a&gt;. Former employers had &lt;a href=&quot;&quot;&gt;JIRA&lt;/a&gt;, and back in the days this is done using speadsheets. Current client uses &lt;a href=&quot;&quot;&gt;Agile Boards on Azure&lt;/a&gt; and former clients also had &lt;a href=&quot;&quot;&gt;JIRA&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;TFS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These are just to keep track of various projects and not to plan my daily routines. Previously used Trello, Todoist, and even Asana.&lt;/p&gt;
 
 &lt;h3 id=&quot;reminders&quot;&gt;Reminders&lt;/h3&gt;
 
@@ -125,12 +125,28 @@
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Google Calendar&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It has always been a &lt;em&gt;calendar&lt;/em&gt; to schedule meetings, appointments, reminders et al. whether it’s personal or work. Current and former employers and clientele have been either on &lt;a href=&quot;&quot;&gt;Outlook&lt;/a&gt; or &lt;a href=&quot;&quot;&gt;G-suite&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Previously tried Workflowy, Microsoft Todo, Trello, but it has always been a &lt;em&gt;calendar&lt;/em&gt; when scheduling meetings, appointments, reminders et al. whether it’s personal or work.&lt;/p&gt;
 
 &lt;h3 id=&quot;emails&quot;&gt;Emails&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Rules on Microsoft Outlook&lt;/a&gt; to filter emails and meeting invites&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Rules on Microsoft Outlook&lt;/a&gt; to filter and process emails and meeting invites&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You want to have a look at Scott Hanselman’s article &lt;a href=&quot;https://www.hanselman.com/blog/TheThreeMostImportantOutlookRulesForProcessingMail.aspx&quot;&gt;on Outlook rules for processing emails&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry></feed>
+&lt;p&gt;You want to have a look at Scott Hanselman’s article &lt;a href=&quot;https://www.hanselman.com/blog/TheThreeMostImportantOutlookRulesForProcessingMail.aspx&quot;&gt;on Outlook rules for processing emails&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Audible app&lt;/a&gt; on the go&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am a snail-pace-reader and the credit goes to one of my former colleagues, &lt;a href=&quot;https://github.com/hasithy&quot;&gt;@hasithy&lt;/a&gt;, for showing how keep using Audible. Still reads a chapter or two from a book occationally, to get inspiration &lt;a href=&quot;/books/&quot;&gt;for fiction writing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;budgets&quot;&gt;Budgets&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Google Keep&lt;/a&gt; as a simple list of to-dos with the amount&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Previously tried many apps, but Keep seemed to work for more than just a couple of years consistantly.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry></feed>
