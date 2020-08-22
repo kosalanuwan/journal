@@ -1,8 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-16T19:40:28+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">Message Handlers on Web API vs. MVC</title><link href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/" rel="alternate" type="text/html" title="Message Handlers on Web API vs. MVC" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">&lt;p&gt;If you were wondering, have a look at &lt;a href=&quot;https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs&quot;&gt;this auth0 sample code snippet on asp.net&lt;/a&gt;. It uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; to wire access token validation. I tried to do the same with an MVC web app but had hard luck :-1: getting it to work, and here’s why it is was a terrible idea.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-22T10:39:35+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world&lt;/a&gt; article has the links to all the dev tools&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shields.io/&quot;&gt;Shields.io&lt;/a&gt; is the go-to place for badges&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jemoji&quot;&gt;Jekyll Emoji&lt;/a&gt; to render emojis on GitHub sites
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-otto-theme/blob/master/_sass/otto/_emoji-optimize.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_emoji-optimize.scss&lt;/code&gt;&lt;/a&gt; contains inline content related fixes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-talks-site/blob/master/_includes/speaker-deck.html&quot;&gt;Speaker Decks&lt;/a&gt; to embed powerpoint slides
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-talks-site/blob/master/_sass/otto/_speaker-deck.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_speaker-deck.scss&lt;/code&gt;&lt;/a&gt; maintains the aspect ratio&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-bliki-site/blob/master/_includes/post-meta.html&quot;&gt;Twitter Button&lt;/a&gt; for social sharing
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-otto-theme/blob/master/_sass/otto/_social-icons.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_social-icons.scss&lt;/code&gt;&lt;/a&gt; for making it looks better&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;coding&quot;&gt;Coding&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devhints.io/jekyll&quot;&gt;Cheat sheet for Jekyll&lt;/a&gt; has a lot of Liquid syntax&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mdo/jekyll-snippets&quot;&gt;Jekyll code snippets&lt;/a&gt; by Mark Otto is a good source of how to do this and that&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2014/09/25/sass-and-jekyll/&quot;&gt;SCSS with Jekyll&lt;/a&gt; by Mark Otto is the best guide for themes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2018/11/05/css-dark-mode/&quot;&gt;CSS dark mode&lt;/a&gt; article on how to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://solutionoptimist.com/awesome-github-tricks/&quot;&gt;Host Web Apps and Images&lt;/a&gt; article on how to use GitHub as a CDN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;general-guides&quot;&gt;General Guides&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeguide.co/&quot;&gt;CodeGuide&lt;/a&gt; for HTML and CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wtfhtmlcss.com/&quot;&gt;WTF? HTML and CSS&lt;/a&gt; has some tips and tricks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/sass-style-guide/&quot;&gt;SCSS style guide&lt;/a&gt; article on CSS tricks is also a good source&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;themes&quot;&gt;Themes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wtfhtmlcss.com/&quot;&gt;WTF? HTML and CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://demo.getpoole.com/page2/&quot;&gt;Poole&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyde.getpoole.com/&quot;&gt;Hyde&lt;/a&gt; is a two-column theme based on Poole&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/github-actions-getting-started&quot;&gt;GitHub Actions&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/aaron-stewart&quot;&gt;Aaron Stewart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/building-custom-github-actions&quot;&gt;Customize GitHub Actions&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/enrico-campidoglio&quot;&gt;Enrico Campidoglio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/supercharging-git-workflow&quot;&gt;GitHub Workflow&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/aaron-stewart&quot;&gt;Aaron Stewart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/paths/skills/collaborative-coding-with-github&quot;&gt;Coding with GitHub&lt;/a&gt; Learner path on Pluralsight&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alertbox/bookworm&quot;&gt;Bookworm&lt;/a&gt; repository has some templates for &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/CONTRIBUTING.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CONTRIBUTING.md&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/README.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/.gitignore&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/vscode/wiki/How-to-Contribute&quot;&gt;VS Code&lt;/a&gt;, &lt;a href=&quot;https://github.com/facebook/flow&quot;&gt;Flow&lt;/a&gt;, &lt;a href=&quot;https://github.com/babel&quot;&gt;Babel&lt;/a&gt;, &lt;a href=&quot;https://github.com/parcel-bundler/parcel/blob/v2/CONTRIBUTING.md&quot;&gt;Parcel JS Bundler&lt;/a&gt; repos also have good documentation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://contributor-covenant.org/&quot;&gt;Contributor Covenant&lt;/a&gt; for Code of Conduct&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://opencollective.com/&quot;&gt;Open Collective&lt;/a&gt; for sponsorships&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flow.org/en/docs/usage/&quot;&gt;Flow&lt;/a&gt; and &lt;a href=&quot;https://babeljs.io/docs/en/usage&quot;&gt;Babel&lt;/a&gt; sites for Usage and Getting Started Guides&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past building and deploying github sites using jekyll, liquid, and markdown.</summary></entry><entry><title type="html">Message Handlers on Web API vs. MVC</title><link href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/" rel="alternate" type="text/html" title="Message Handlers on Web API vs. MVC" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">&lt;p&gt;If you were wondering, have a look at &lt;a href=&quot;https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs&quot;&gt;this auth0 sample code snippet on asp.net&lt;/a&gt;. It uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; to wire access token validation. I tried to do the same with an MVC web app but had hard luck :-1: getting it to work, and here’s why it is was a terrible idea.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/35905246/257727&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; are part of the Web API Pipeline&lt;/a&gt; and won’t work with MVC web apps. Also, there were &lt;a href=&quot;https://stackoverflow.com/a/9495189/257727&quot;&gt;some considerable differences between the two kinds of controllers&lt;/a&gt;, one meant to serve views and the other meant to serve data. &lt;a href=&quot;https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1&quot;&gt;The Content Negotiation Algorithm (Conneg) in the ASP.NET stack&lt;/a&gt; is a good source of information regarding how the requests and responses were acknowledged based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Accept&lt;/code&gt; header and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;And for the MVC web apps, a possible fix, or rather an alternative to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; was &lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters&quot;&gt;to write a Custom Action Filter&lt;/a&gt;, otherwise move the backend API endpoints to a &lt;a href=&quot;https://www.tutlane.com/tutorial/aspnet-mvc/create-use-asp-net-web-api-service-in-asp-net-mvc-application-with-example&quot;&gt;Web API within the MVC app&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="asp.net" /><summary type="html">Message Handlers are best for implementing cross-cutting concerns, but they are part of Web API Pipeline and not for MVC web apps. Use Action Filters instead.</summary></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since I interact with it daily, so why not use it for everything else. &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;. Just a personal preference, with :heart: of course.&lt;/p&gt;
+&lt;p&gt;And for the MVC web apps, a possible fix, or rather an alternative to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; was &lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters&quot;&gt;to write a Custom Action Filter&lt;/a&gt;, otherwise move the backend API endpoints to a &lt;a href=&quot;https://www.tutlane.com/tutorial/aspnet-mvc/create-use-asp-net-web-api-service-in-asp-net-mvc-application-with-example&quot;&gt;Web API within the MVC app&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="asp.net" /></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since I interact with it daily, so why not use it for everything else. &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;, with :heart: of course. Just a personal preference.&lt;/p&gt;
 
 &lt;p&gt;In case you were wondering, this site is:&lt;/p&gt;
 
@@ -16,4 +86,4 @@
 
 &lt;p&gt;And, this article amongst rest are written in &lt;a href=&quot;&quot;&gt;Markdown&lt;/a&gt; with &lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;&quot;&gt;Docsify&lt;/a&gt;. It is a documentation site generator with &lt;a href=&quot;&quot;&gt;a great community support&lt;/a&gt;. &lt;a href=&quot;&quot;&gt;Awesome Docsify&lt;/a&gt; is a good source of information. &lt;a href=&quot;&quot;&gt;I played around a bit with Docsify&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;wrote a plugin or two&lt;/a&gt; as well for my needs, but that was before I picked Jekyll and it’s still a work in-progress.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /><summary type="html">Just an intro post on the tech stack and some alternatives I tried out before GitHub became my bitch.</summary></entry></feed>
+&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;&quot;&gt;Docsify&lt;/a&gt;. It is a documentation site generator with &lt;a href=&quot;&quot;&gt;a great community support&lt;/a&gt;. &lt;a href=&quot;&quot;&gt;Awesome Docsify&lt;/a&gt; is a good source of information. &lt;a href=&quot;&quot;&gt;I played around a bit with Docsify&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;wrote a plugin or two&lt;/a&gt; as well for my needs, but that was before I picked Jekyll and it’s still a work in-progress.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry></feed>

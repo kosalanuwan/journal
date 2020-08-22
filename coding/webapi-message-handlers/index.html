@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/bliki/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/bliki/assets/css/main.css?202008161940" type="text/css">
+  <link rel="stylesheet" href="/bliki/assets/css/main.css?202008221039" type="text/css">
 </head>
 
 <body>
@@ -81,6 +81,10 @@
 
 
 <article>
+  
+    <blockquote></blockquote>
+  
+  
   <p>If you were wondering, have a look at <a href="https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs">this auth0 sample code snippet on asp.net</a>. It uses <code class="language-plaintext highlighter-rouge">MessageHandlers</code> to wire access token validation. I tried to do the same with an MVC web app but had hard luck <img class="emoji" title=":-1:" alt=":-1:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20"> getting it to work, and here’s why it is was a terrible idea.</p>
 
 <p><a href="https://stackoverflow.com/a/35905246/257727"><code class="language-plaintext highlighter-rouge">MessageHandlers</code> are part of the Web API Pipeline</a> and won’t work with MVC web apps. Also, there were <a href="https://stackoverflow.com/a/9495189/257727">some considerable differences between the two kinds of controllers</a>, one meant to serve views and the other meant to serve data. <a href="https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1">The Content Negotiation Algorithm (Conneg) in the ASP.NET stack</a> is a good source of information regarding how the requests and responses were acknowledged based on <code class="language-plaintext highlighter-rouge">Accept</code> header and the <code class="language-plaintext highlighter-rouge">Content-Type</code>.</p>
