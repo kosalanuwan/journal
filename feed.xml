@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-23T09:24:33+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-23T10:28:59+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;conventional-commits&quot;&gt;Conventional Commits&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY&quot;&gt;Free Classes by GitHub Training &amp;amp; Guides&lt;/a&gt; is playlist with series of how-tos on various GitHub features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.conventionalcommits.org/en/v1.0.0/#summary&quot;&gt;The official conventional commits guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit&quot;&gt;The original guide introduced by the Angular team&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit&quot;&gt;Git commit message conventions with examples&lt;/a&gt; discusses the objectives and examples of commit messages&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword&quot;&gt;Link issues and pull requests using commit messages&lt;/a&gt; is useful to close issues when the pull requests are merged&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cli-tools&quot;&gt;CLI Tools&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/conventional-changelog/standard-version&quot;&gt;Standard Version&lt;/a&gt; is a CLI tool by &lt;a href=&quot;https://github.com/conventional-changelog&quot;&gt;Conventional Changelog&lt;/a&gt; used to bump-up version according to semver and to generate CHANGELOG based on conventional commits&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/conventional-changelog/commitlint&quot;&gt;Commit Lint&lt;/a&gt; is another CLI tool to verify commit messages and suggest corrections&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
@@ -11,6 +22,12 @@
   &lt;li&gt;&lt;a href=&quot;http://contributor-covenant.org/&quot;&gt;Contributor Covenant&lt;/a&gt; for Code of Conduct&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://opencollective.com/&quot;&gt;Open Collective&lt;/a&gt; for sponsorships&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://flow.org/en/docs/usage/&quot;&gt;Flow&lt;/a&gt; and &lt;a href=&quot;https://babeljs.io/docs/en/usage&quot;&gt;Babel&lt;/a&gt; sites for Usage and Getting Started Guides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY&quot;&gt;Free Classes by GitHub Training &amp;amp; Guides&lt;/a&gt; is playlist with series of how-tos on various GitHub features&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;dev-tools&quot;&gt;Dev Tools&lt;/h3&gt;
 
 &lt;ul&gt;
