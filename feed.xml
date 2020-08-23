@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-23T13:38:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;conventional-commits&quot;&gt;Conventional Commits&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-23T16:57:29+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software-and-tools&quot;&gt;Software and Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cli.github.com/&quot;&gt;GitHub CLI&lt;/a&gt; is still on beta&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;vs-code-extensions&quot;&gt;VS Code Extensions&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;:+1: &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;Git Lens by Eric Amodio&lt;/a&gt; annotates valuable git insights seemlessly on the code editor&lt;/li&gt;
+  &lt;li&gt;:+1: &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&quot;&gt;Git Graph by Michael Hutchison&lt;/a&gt; visualize git activities of the repository&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&quot;&gt;Git History by Don Jayamanne&lt;/a&gt; shows the log, file history, and compare branches or commits&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame&quot;&gt;Git Blame by Wade Anderson&lt;/a&gt; shows the last edited author in the statusbar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&quot;&gt;GitHub for VS Code&lt;/a&gt; allows you to review and manage pull requests and issues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conventional-commits&quot;&gt;Conventional Commits&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.conventionalcommits.org/en/v1.0.0/#summary&quot;&gt;The official conventional commits guide&lt;/a&gt;&lt;/li&gt;
@@ -29,7 +47,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY&quot;&gt;Free Classes by GitHub Training &amp;amp; Guides&lt;/a&gt; is playlist with series of how-tos on various GitHub features&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;dev-tools&quot;&gt;Dev Tools&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when doing OSS work using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;dev-tools&quot;&gt;Dev Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world&lt;/a&gt; article has the links to all the dev tools&lt;/li&gt;
