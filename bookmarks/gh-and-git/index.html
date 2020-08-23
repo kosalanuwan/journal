@@ -11,7 +11,7 @@
   <meta name="description" content="&lt;a href=&quot;https://kosalanuwan.github.io&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer journal. This bliki, its content, and opinions are my own.">
 
   
-    <meta name="keywords" content="coding">
+    <meta name="keywords" content="bookmarks">
   
 
   
@@ -20,11 +20,11 @@
 
   <title>
     
-      Message Handlers on Web API vs. MVC &middot; #bliki
+      GitHub and Git &middot; #bliki
     
   </title>
 
-  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">
+  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for #bliki" href="https://kosalanuwan.github.io/bliki/atom.xml">
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -56,7 +56,7 @@
   </div>
   <hr>
   <div class="container">
-    <h2>Message Handlers on Web API vs. MVC</h2>
+    <h2>GitHub and Git</h2>
 
 
 
@@ -67,7 +67,7 @@
 
 
 <div class="meta">
-    12th August 2020
+    22nd August 2020
 </div>
 
 <small class="meta">
@@ -82,14 +82,30 @@
 
 <article>
   
-    <blockquote></blockquote>
+    <blockquote>Curated list of online resources referred during the past when using GitHub and git.</blockquote>
   
   
-  <p>If you were wondering, have a look at <a href="https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs">this auth0 sample code snippet on asp.net</a>. It uses <code class="language-plaintext highlighter-rouge">MessageHandlers</code> to wire access token validation. I tried to do the same with an MVC web app but had hard luck <img class="emoji" title=":-1:" alt=":-1:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20"> getting it to work, and here’s why it is was a terrible idea.</p>
+  <h3 id="courses">Courses</h3>
+<ul>
+  <li>
+<a href="https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY">Free Classes by GitHub Training &amp; Guides</a> is playlist with series of how-tos on various GitHub features</li>
+</ul>
 
-<p><a href="https://stackoverflow.com/a/35905246/257727"><code class="language-plaintext highlighter-rouge">MessageHandlers</code> are part of the Web API Pipeline</a> and won’t work with MVC web apps. Also, there were <a href="https://stackoverflow.com/a/9495189/257727">some considerable differences between the two kinds of controllers</a>, one meant to serve views and the other meant to serve data. <a href="https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1">The Content Negotiation Algorithm (Conneg) in the ASP.NET stack</a> is a good source of information regarding how the requests and responses were acknowledged based on <code class="language-plaintext highlighter-rouge">Accept</code> header and the <code class="language-plaintext highlighter-rouge">Content-Type</code>.</p>
+<h3 id="documentation">Documentation</h3>
 
-<p>And for the MVC web apps, a possible fix, or rather an alternative to <code class="language-plaintext highlighter-rouge">MessageHandlers</code> was <a href="https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters">to write a Custom Action Filter</a>, otherwise move the backend API endpoints to a <a href="https://www.tutlane.com/tutorial/aspnet-mvc/create-use-asp-net-web-api-service-in-asp-net-mvc-application-with-example">Web API within the MVC app</a>.</p>
+<ul>
+  <li>
+<a href="https://github.com/alertbox/bookworm">Bookworm</a> repository has some templates for <a href="https://github.com/alertbox/bookworm/blob/master/CONTRIBUTING.md"><code class="language-plaintext highlighter-rouge">CONTRIBUTING.md</code></a>, <a href="https://github.com/alertbox/bookworm/blob/master/README.md"><code class="language-plaintext highlighter-rouge">README.md</code></a>, and <a href="https://github.com/alertbox/bookworm/blob/master/.gitignore"><code class="language-plaintext highlighter-rouge">.gitignore</code></a>
+</li>
+  <li>
+<a href="https://github.com/Microsoft/vscode/wiki/How-to-Contribute">VS Code</a>, <a href="https://github.com/facebook/flow">Flow</a>, <a href="https://github.com/babel">Babel</a>, <a href="https://github.com/parcel-bundler/parcel/blob/v2/CONTRIBUTING.md">Parcel JS Bundler</a> repos also have good documentation</li>
+  <li>
+<a href="http://contributor-covenant.org/">Contributor Covenant</a> for Code of Conduct</li>
+  <li>
+<a href="https://opencollective.com/">Open Collective</a> for sponsorships</li>
+  <li>
+<a href="https://flow.org/en/docs/usage/">Flow</a> and <a href="https://babeljs.io/docs/en/usage">Babel</a> sites for Usage and Getting Started Guides</li>
+</ul>
 
 </article>
   </div>

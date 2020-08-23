@@ -11,7 +11,7 @@
   <meta name="description" content="&lt;a href=&quot;https://kosalanuwan.github.io&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer journal. This bliki, its content, and opinions are my own.">
 
   
-    <meta name="keywords" content="coding">
+    <meta name="keywords" content="bookmarks">
   
 
   
@@ -20,11 +20,11 @@
 
   <title>
     
-      Message Handlers on Web API vs. MVC &middot; #bliki
+      NPM for web developers &middot; #bliki
     
   </title>
 
-  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">
+  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/bookmarks/npm-for-web-devs/">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for #bliki" href="https://kosalanuwan.github.io/bliki/atom.xml">
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -56,7 +56,7 @@
   </div>
   <hr>
   <div class="container">
-    <h2>Message Handlers on Web API vs. MVC</h2>
+    <h2>NPM for web developers</h2>
 
 
 
@@ -67,7 +67,7 @@
 
 
 <div class="meta">
-    12th August 2020
+    1st April 2020
 </div>
 
 <small class="meta">
@@ -82,14 +82,22 @@
 
 <article>
   
-    <blockquote></blockquote>
+    <blockquote>Curated list of online resources referred during the past when using npm and related dev tools to build and run heavy-js web apps.</blockquote>
   
   
-  <p>If you were wondering, have a look at <a href="https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs">this auth0 sample code snippet on asp.net</a>. It uses <code class="language-plaintext highlighter-rouge">MessageHandlers</code> to wire access token validation. I tried to do the same with an MVC web app but had hard luck <img class="emoji" title=":-1:" alt=":-1:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20"> getting it to work, and here’s why it is was a terrible idea.</p>
-
-<p><a href="https://stackoverflow.com/a/35905246/257727"><code class="language-plaintext highlighter-rouge">MessageHandlers</code> are part of the Web API Pipeline</a> and won’t work with MVC web apps. Also, there were <a href="https://stackoverflow.com/a/9495189/257727">some considerable differences between the two kinds of controllers</a>, one meant to serve views and the other meant to serve data. <a href="https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1">The Content Negotiation Algorithm (Conneg) in the ASP.NET stack</a> is a good source of information regarding how the requests and responses were acknowledged based on <code class="language-plaintext highlighter-rouge">Accept</code> header and the <code class="language-plaintext highlighter-rouge">Content-Type</code>.</p>
-
-<p>And for the MVC web apps, a possible fix, or rather an alternative to <code class="language-plaintext highlighter-rouge">MessageHandlers</code> was <a href="https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters">to write a Custom Action Filter</a>, otherwise move the backend API endpoints to a <a href="https://www.tutlane.com/tutorial/aspnet-mvc/create-use-asp-net-web-api-service-in-asp-net-mvc-application-with-example">Web API within the MVC app</a>.</p>
+  <h3 id="articles">Articles</h3>
+<ul>
+  <li>
+<a href="https://zellwk.com/blog/publish-to-npm/">Publish packages to npm using np</a> demonstrates how to publish JavaScript libraries to npm
+    <ul>
+      <li>The approach used to publish <a href="https://github.com/alertbox/docsify-footer/blob/master/CONTRIBUTING.md#publishing">docsify-footer plugin</a>
+</li>
+    </ul>
+  </li>
+  <li>
+<a href="https://markdotto.com/2020/04/01/npm-dist-tags/">Publish package to npm using dist tags</a> is also a good practice but haven’t had the change to try it</li>
+  <li>
+</ul>
 
 </article>
   </div>
