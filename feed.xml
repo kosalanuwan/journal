@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-24T17:00:43+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software-and-tools&quot;&gt;Software and Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-24T18:34:44+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cli.github.com/&quot;&gt;GitHub CLI&lt;/a&gt; is still on beta&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cli.github.com/&quot;&gt;GitHub CLI&lt;/a&gt; for interacting  via Terminal&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt; for markdown editing&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h5 id=&quot;vs-code-extensions&quot;&gt;VS Code Extensions&lt;/h5&gt;
@@ -47,10 +48,10 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY&quot;&gt;Free Classes by GitHub Training &amp;amp; Guides&lt;/a&gt; is playlist with series of how-tos on various GitHub features&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when doing OSS work using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;dev-tools&quot;&gt;Dev Tools&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when doing OSS work using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world&lt;/a&gt; article has the links to all the dev tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world article&lt;/a&gt; pretty much covers all the dev tools and apps I use&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
