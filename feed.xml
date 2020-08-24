@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-23T17:06:02+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software-and-tools&quot;&gt;Software and Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-24T08:33:58+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software-and-tools&quot;&gt;Software and Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
@@ -125,7 +125,7 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2020/04/01/npm-dist-tags/&quot;&gt;Publish package to npm using dist tags&lt;/a&gt; is also a good practice but haven’t had the change to try it&lt;/li&gt;
   &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when using npm and related dev tools to build and run heavy-js web apps.</summary></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since I interact with it daily, so why not use it for everything else. &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;, with :heart: of course. Just a personal preference.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when using npm and related dev tools to build and run heavy-js web apps.</summary></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since &lt;a href=&quot;/bliki/productivity/&quot;&gt;I interact with it daily, so why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!  &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;, with :heart: of course. Just a personal preference.&lt;/p&gt;
 
 &lt;p&gt;In case you were wondering, this site is:&lt;/p&gt;
 
@@ -158,7 +158,7 @@
 &lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Written in &lt;a href=&quot;&quot;&gt;Markdown&lt;/a&gt; using &lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bliki/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Previously used OneNote, Evernote, Workflowy, Dropbox Paper, and even Notion.&lt;/p&gt;
@@ -176,10 +176,11 @@
 &lt;h3 id=&quot;todo-list&quot;&gt;Todo list&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A todos repo &lt;a href=&quot;https://github.com/kosalanuwan/todos&quot;&gt;on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/todos&quot;&gt;Private repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;GitHub Issues&lt;/a&gt; for each todo item&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It is a neverending backlog of &lt;em&gt;ahaa thoughts&lt;/em&gt;. You want to try out &lt;a href=&quot;&quot;&gt;GitHub app on the mobile&lt;/a&gt;. Previously used Google Keep, Trello, and Microsoft Todo app.&lt;/p&gt;
+&lt;p&gt;It is a neverending list of &lt;em&gt;ahaa thoughts!&lt;/em&gt; You want to try out &lt;a href=&quot;&quot;&gt;GitHub app on the mobile&lt;/a&gt;. Previously used Google Keep, Trello, and Microsoft Todo app.&lt;/p&gt;
 
 &lt;h3 id=&quot;reminders&quot;&gt;Reminders&lt;/h3&gt;
 
