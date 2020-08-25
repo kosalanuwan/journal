@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-24T18:34:44+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-08-25T02:44:57+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
@@ -51,7 +51,7 @@
 &lt;/ul&gt;</content><author><name></name></author><category term="bookmarks" /><summary type="html">Curated list of online resources referred during the past when doing OSS work using GitHub and git.</summary></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/bookmarks/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/bookmarks/gh-sites/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/hello-world/&quot;&gt;Hello world article&lt;/a&gt; pretty much covers all the dev tools and apps I use&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/etc/hello-world/&quot;&gt;Hello world article&lt;/a&gt; pretty much covers all the dev tools and apps I use&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
@@ -145,7 +145,7 @@
 &lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/bliki/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/etc/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Previously used OneNote, Evernote, Workflowy, Dropbox Paper, and even Notion.&lt;/p&gt;
@@ -200,7 +200,7 @@
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Google Keep&lt;/a&gt; as a simple list of expenses with the budgeted amount&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Previously tried many apps and even spreadsheets but that doesn’t seemed to work consistantly for not more than a few months.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since &lt;a href=&quot;/bliki/productivity/&quot;&gt;I interact with it daily, so why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!  &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;, with :heart: of course. Just a personal preference.&lt;/p&gt;
+&lt;p&gt;Previously tried many apps and even spreadsheets but that doesn’t seemed to work consistantly for not more than a few months.&lt;/p&gt;</content><author><name></name></author><category term="etc" /><category term="etc" /></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/etc/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/etc/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/etc/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since &lt;a href=&quot;/etc/personal-productivity/&quot;&gt;I interact with it daily, so why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!  &lt;em&gt;GitHub used to be my unicorn, and now it is my bitch&lt;/em&gt;, with :heart: of course. Just a personal preference.&lt;/p&gt;
 
 &lt;p&gt;In case you were wondering, this site is:&lt;/p&gt;
 
