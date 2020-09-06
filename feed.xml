@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-05T07:13:42+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-06T05:04:37+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
@@ -196,15 +196,15 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/esamattis/underscore.string&quot;&gt;Underscore.string&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;But, I don’t enjoy adding such libraries just for the sake of developer ease. Nowadays, vanilla javascript already cover most of it anyways and polyfills are there whenever some random browser doesn’t have the support.&lt;/p&gt;
+&lt;p&gt;But, I don’t enjoy adding them just for the sake of developer ease. Nowadays, vanilla javascript already cover most of it anyways and polyfills are there whenever some random browser doesn’t have the support.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Preferred approach&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets&quot;&gt;I prefer mix and match snippets, helper methods, boilerplate code, and polyfills&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets&quot;&gt;I prefer mix and match snippets, helper methods, boilerplate code, polyfills et. al.&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For that, I do dig deep into those major javascript utility libraries and polyfills in order to pull out what is needed. Luckily, they are all opensourced, with :heart: of course!&lt;/p&gt;
+&lt;p&gt;For that, I &lt;strong&gt;do&lt;/strong&gt; dig deep into any javascript code, libraries, frameworks in order to pull out what is needed, with :heart: of course. Luckily, they are all opensourced!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;I peek into &lt;a href=&quot;https://github.com/Financial-Times/polyfill-library&quot;&gt;Financial Time’s polyfill library&lt;/a&gt;&lt;/li&gt;
