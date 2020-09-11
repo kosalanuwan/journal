@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-11T22:15:29+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-11T22:46:46+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
@@ -136,10 +136,6 @@
   &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/paths/skills/collaborative-coding-with-github&quot;&gt;Coding with GitHub&lt;/a&gt; Learner path on Pluralsight&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="awesome" /><summary type="html">Curated list of online resources referred during the past building and deploying github sites using jekyll, liquid, and markdown.</summary></entry><entry><title type="html">Create your own DOM manipulation nano-library</title><link href="https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library/" rel="alternate" type="text/html" title="Create your own DOM manipulation nano-library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library/">&lt;p&gt;I’m a huge nerd :nerd_face: of &lt;a href=&quot;https://github.com/topics/javascript?l=javascript&quot;&gt;javascript (JS)&lt;/a&gt;. I’d use my own nano-library for DOM manipulation instead of adding huge JS frameworks and libraries like jQuery, Lodash, Underscore.js, et al.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;If you want to understand at the most basic level, &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;here’s the complete source code I pulled together&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
 &lt;p&gt;And, for that, I &lt;strong&gt;do&lt;/strong&gt; dig into those frameworks and libraries in order to pull out what is needed, with :heart: of course. &lt;a href=&quot;https://github.com/topics/utilities?l=javascript&amp;amp;o=desc&amp;amp;s=stars&quot;&gt;Luckily, they are all opensourced&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example usage:&lt;/strong&gt;&lt;/p&gt;
@@ -158,25 +154,45 @@
 &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;input[required]&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;checkValidity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;what-youll-learn&quot;&gt;What You’ll Learn&lt;/h3&gt;
+&lt;h3 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h3&gt;
 
-&lt;p&gt;Think of it as a mix and match of a collection of helper functions for DOM manipulation bundled into a single namespace. In this case, the it would be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window&lt;/code&gt; object.&lt;/p&gt;
+&lt;p&gt;Think of it as a mix and match of a collection of helper functions for DOM manipulation bundled into a single namespace. In this case, it would be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window&lt;/code&gt; object.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;First, I use IIFE pattern, a bit similar to Revealing Module pattern to wrap the library&lt;/li&gt;
-  &lt;li&gt;Then, the Polyfill pattern is used for helper functions, and&lt;/li&gt;
-  &lt;li&gt;Finally, I use Chaining as for fluent use of helper functions, and&lt;/li&gt;
-  &lt;li&gt;I follow the JSDoc style for documenting the javascript&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;First, you want to use IIFE pattern to wrap the nano-library. This is a bit similar to Revealing Module pattern. Then, the Polyfill pattern to encapsulate all the helper functions. Here’s how it would look like.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Polyfill pattern for helper function `$`.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;Window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;cm&quot;&gt;/**
+             * Example logic for querying DOM.
+             */&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;})(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You would want to do some Chaining as well for fluent use of helper functions, and finally, do the documentation based on JSDoc style.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you want to understand at the most basic level, &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;here’s the complete source code I pulled together&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;run-from-source&quot;&gt;Run from Source&lt;/h3&gt;
 
-&lt;p&gt;For minimum requirements, I use following tools.&lt;/p&gt;
+&lt;p&gt;For minimum requirements, you will need following tools.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com&quot;&gt;An editor, like VS Code&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;ritwickdey.liveserver&quot;&gt;A development local server, like Live Server for VS Code&lt;/a&gt;, and&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brave.com/latest/&quot;&gt;A web browser, like Brave&lt;/a&gt; as for my javascript playground&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brave.com/latest/&quot;&gt;A web browser, like Brave&lt;/a&gt; as for javascript playground&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You’ll want to &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;copy the source and paste it on the browser console, then play around with those methods by calling it&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="javascript" /></entry><entry><title type="html">Library of vanilla JS code snippets</title><link href="https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets/" rel="alternate" type="text/html" title="Library of vanilla JS code snippets" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets/">&lt;p&gt;I’m a huge nerd :nerd_face: of &lt;a href=&quot;https://github.com/topics/javascript?l=javascript&quot;&gt;vanilla javascript&lt;/a&gt; (JS). I’ve built a few website on it, as well as a few libraries and still have a long way to go.&lt;/p&gt;
