@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-12T16:37:10+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-09-12T17:56:13+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">www-bliki</title><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/awesome/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/awesome/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
@@ -134,68 +134,7 @@
   &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/building-custom-github-actions&quot;&gt;Customize GitHub Actions&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/enrico-campidoglio&quot;&gt;Enrico Campidoglio&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/supercharging-git-workflow&quot;&gt;GitHub Workflow&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/aaron-stewart&quot;&gt;Aaron Stewart&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/paths/skills/collaborative-coding-with-github&quot;&gt;Coding with GitHub&lt;/a&gt; Learner path on Pluralsight&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="awesome" /><summary type="html">Curated list of online resources referred during the past building and deploying github sites using jekyll, liquid, and markdown.</summary></entry><entry><title type="html">Create your own DOM manipulation nano-library</title><link href="https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library/" rel="alternate" type="text/html" title="Create your own DOM manipulation nano-library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/create-your-own-dom-manipulation-nano-library/">&lt;p&gt;I’m a huge nerd :nerd_face: of &lt;a href=&quot;https://github.com/topics/javascript?l=javascript&quot;&gt;javascript (JS)&lt;/a&gt;. I’d use my own nano-library for DOM manipulation instead of adding huge JS frameworks and libraries like jQuery, Lodash, Underscore.js, et al.&lt;/p&gt;
-
-&lt;p&gt;And, for that, I &lt;strong&gt;do&lt;/strong&gt; dig into those frameworks and libraries in order to pull out what is needed, with :heart: of course. &lt;a href=&quot;https://github.com/topics/utilities?l=javascript&amp;amp;o=desc&amp;amp;s=stars&quot;&gt;Luckily, they are all opensourced&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example usage:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
- * Attach the login function to the menu item Log in.
- */&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;a[data-route-link=&quot;/login&quot;]&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loginWithRedirect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
- * Validate the input text box if it's mandatory.
- */&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;input[required]&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;checkValidity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h3&gt;
-
-&lt;p&gt;Think of it as a mix and match of a collection of helper functions for DOM manipulation bundled into a single namespace. In this case, it would be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace or the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window&lt;/code&gt; object.&lt;/p&gt;
-
-&lt;p&gt;First, you want to use IIFE pattern to wrap the nano-library. This is a bit similar to Revealing Module pattern. Then, the Polyfill pattern to encapsulate all the helper functions. Here’s how it would look like.&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;cm&quot;&gt;/**
-     * Polyfill pattern for helper function `$`.
-     */&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;Window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;cm&quot;&gt;/**
-             * Example logic for querying DOM.
-             */&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;})(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You would want to do some Chaining as well for fluent use of helper functions, and finally, do the documentation based on JSDoc style.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you want to understand at the most basic level, &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;here’s the complete source code I pulled together&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;run-from-source&quot;&gt;Run from Source&lt;/h3&gt;
-
-&lt;p&gt;For minimum requirements, you will need following tools.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com&quot;&gt;An editor, like VS Code&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;ritwickdey.liveserver&quot;&gt;A development local server, like Live Server for VS Code&lt;/a&gt;, and&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brave.com/latest/&quot;&gt;A web browser, like Brave&lt;/a&gt; as for javascript playground&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You’ll want to &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;copy the source and paste it on the browser console, then play around with those methods by calling it&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="javascript" /></entry><entry><title type="html">Write your own DOM manipulation library</title><link href="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/" rel="alternate" type="text/html" title="Write your own DOM manipulation library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f-yLYjvPiLE&quot;&gt;I’d prefer to write my own code to select and manipulate the DOM.&lt;/a&gt; Think of it as a mix and match of a collection of alias functions around &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelector()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelectorAll()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.addEventListener()&lt;/code&gt; and a couple of more, bundled into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window&lt;/code&gt; object.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="awesome" /><summary type="html">Curated list of online resources referred during the past building and deploying github sites using jekyll, liquid, and markdown.</summary></entry><entry><title type="html">Write your own DOM manipulation library</title><link href="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/" rel="alternate" type="text/html" title="Write your own DOM manipulation library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f-yLYjvPiLE&quot;&gt;I’d prefer to write my own code to select and manipulate the DOM.&lt;/a&gt; Think of it as a mix and match of a collection of alias functions around &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelector()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelectorAll()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.addEventListener()&lt;/code&gt; and a couple of more, bundled into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window&lt;/code&gt; object.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;In other words, a stripped-down version of those huge JS libraries like jQuery, jqLite, et al.&lt;/a&gt;&lt;/p&gt;
 
@@ -213,82 +152,7 @@
 
 &lt;p&gt;And, for that, I &lt;strong&gt;do&lt;/strong&gt; dig into those libraries in order to pull out what is needed, with :heart: of course. &lt;a href=&quot;https://github.com/topics/utilities?l=javascript&amp;amp;o=desc&amp;amp;s=stars&quot;&gt;Luckily, they are all opensourced!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;Here’s the complete source code I pulled together as my own nano-library for DOM manipulation.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="javascript" /></entry><entry><title type="html">Library of vanilla JS code snippets</title><link href="https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets/" rel="alternate" type="text/html" title="Library of vanilla JS code snippets" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/vanilla-js-snippets/">&lt;p&gt;I’m a huge nerd :nerd_face: of &lt;a href=&quot;https://github.com/topics/javascript?l=javascript&quot;&gt;vanilla javascript&lt;/a&gt; (JS). I’ve built a few website on it, as well as a few libraries and still have a long way to go.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-code-snippets&quot;&gt;Have a look at this repository which servers as a library of boilerplate code for all things vanilla JS&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;On this bliki&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#provide-feedback&quot;&gt;Provide feedback&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#run-from-source&quot;&gt;Run from source&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#crash-courses&quot;&gt;Crash courses&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#utility-libraries&quot;&gt;Utitlity libraries&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;provide-feedback&quot;&gt;Provide Feedback&lt;/h3&gt;
-
-&lt;p&gt;If you were wondering, &lt;a href=&quot;https://github.com/kosalanuwan/ama/#readme&quot;&gt;ask questions and problems on GitHub&lt;/a&gt;. It is as easy as creating a new issue. If not, here are the ways you can provide feedback.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/issues/new&quot;&gt;Submit bugs and request code snippets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/issues&quot;&gt;Upvote popular code snippets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/pulls&quot;&gt;Review source code and documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;run-from-source&quot;&gt;Run from Source&lt;/h3&gt;
-
-&lt;p&gt;I use &lt;a href=&quot;https://code.visualstudio.com&quot;&gt;VS Code&lt;/a&gt; and &lt;a href=&quot;https://brave.com/latest/&quot;&gt;Brave&lt;/a&gt; as my javascript playground. First, you need followings to get started.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hdI2bqOjy3c&quot;&gt;VS Code with Live Server extension&lt;/a&gt;, or&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rf6DNf2xw3A&quot;&gt;Web browser with Developer Tools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you want to understand how the snippets work at the most basic level, you’ll want to &lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;copy the source, paste it on the browser console, and run the examples&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;crash-courses&quot;&gt;Crash Courses&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&quot;&gt;Vanilla javascript crash courses&lt;/a&gt; has 10+ videos on JS and DOM manipulation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YK-GurROGIg&quot;&gt;Documenting your javascript crash course&lt;/a&gt; demos on JSCode&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nu5mdN2JIwM&quot;&gt;Scss crash course&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;A couple of more&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fBNz5xF-Kx4&quot;&gt;Node JS crash course&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jHDhaSSKmB0&quot;&gt;NPM crash course&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g9_6KmiBISk&quot;&gt;Yarn package manager crash course&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1rw9MfIleEg&quot;&gt;Gulp task runner crash course&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;utility-libraries&quot;&gt;Utility Libraries&lt;/h3&gt;
-
-&lt;p&gt;You want to try out a few major utility libraries for starters.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lodash/lodash&quot;&gt;Lodash&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jashkenas/underscore&quot;&gt;Underscore&lt;/a&gt;, or&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/esamattis/underscore.string&quot;&gt;Underscore.string&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But, I don’t enjoy adding them just for the sake of developer ease. Nowadays, vanilla javascript already cover most of it anyways and polyfills are there whenever some random browser doesn’t have the support.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Preferred approach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets&quot;&gt;I prefer mix and match snippets, helper methods, boilerplate code, polyfills et. al.&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For that, I &lt;strong&gt;do&lt;/strong&gt; dig deep into any javascript code, libraries, frameworks in order to pull out what is needed, with :heart: of course. Luckily, they are all opensourced!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I peek into &lt;a href=&quot;https://github.com/Financial-Times/polyfill-library&quot;&gt;Financial Time’s polyfill library&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vanillajstoolkit.com&quot;&gt;The Vanilla JS Toolkit site&lt;/a&gt; is a good source of information too&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="coding" /><category term="js" /></entry><entry><title type="html">Message Handlers on Web API vs. MVC</title><link href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/" rel="alternate" type="text/html" title="Message Handlers on Web API vs. MVC" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">&lt;p&gt;If you were wondering, have a look at &lt;a href=&quot;https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs&quot;&gt;this auth0 sample code snippet on asp.net&lt;/a&gt;. It uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; to wire access token validation. I tried to do the same with an MVC web app but had hard luck :-1: getting it to work, and here’s why it is was a terrible idea.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan/vanilla-js-snippets/#readme&quot;&gt;Here’s the complete source code I pulled together as my own nano-library for DOM manipulation.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="javascript" /></entry><entry><title type="html">Message Handlers on Web API vs. MVC</title><link href="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/" rel="alternate" type="text/html" title="Message Handlers on Web API vs. MVC" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/coding/webapi-message-handlers/">&lt;p&gt;If you were wondering, have a look at &lt;a href=&quot;https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs&quot;&gt;this auth0 sample code snippet on asp.net&lt;/a&gt;. It uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; to wire access token validation. I tried to do the same with an MVC web app but had hard luck :-1: getting it to work, and here’s why it is was a terrible idea.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/35905246/257727&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; are part of the Web API Pipeline&lt;/a&gt; and won’t work with MVC web apps. Also, there were &lt;a href=&quot;https://stackoverflow.com/a/9495189/257727&quot;&gt;some considerable differences between the two kinds of controllers&lt;/a&gt;, one meant to serve views and the other meant to serve data. &lt;a href=&quot;https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1&quot;&gt;The Content Negotiation Algorithm (Conneg) in the ASP.NET stack&lt;/a&gt; is a good source of information regarding how the requests and responses were acknowledged based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Accept&lt;/code&gt; header and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt;.&lt;/p&gt;
 
