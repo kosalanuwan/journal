@@ -11,7 +11,7 @@
   <meta name="description" content="&lt;a href=&quot;https://kosalanuwan.github.io&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer notes for himself. This bliki, its content, and opinions are his own.">
 
   
-    <meta name="keywords" content="etc">
+    <meta name="keywords" content="coding">
   
 
   
@@ -20,11 +20,11 @@
 
   <title>
     
-      Hello world :wave: &middot; #bliki
+      Write your own DOM manipulation library &middot; #bliki
     
   </title>
 
-  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/etc/hello-world/">
+  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for #bliki" href="https://kosalanuwan.github.io/bliki/atom.xml">
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -56,8 +56,7 @@
   </div>
   <hr>
   <div class="container">
-    <h2>Hello world <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">
-</h2>
+    <h2>Write your own DOM manipulation library</h2>
 
 
 
@@ -68,7 +67,7 @@
 
 
 <div class="meta">
-    17th July 1991
+    12th August 2020
 </div>
 
 <small class="meta">
@@ -86,26 +85,26 @@
     <blockquote></blockquote>
   
   
-  <p>Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since <a href="/etc/personal-productivity/">I interact with it daily, so why not use it for everything else</a>. I’m that nerd <img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20">!  <em>GitHub used to be my unicorn, and now it is my bitch</em>, with <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> of course. Just a personal preference.</p>
+  <p><a href="https://www.youtube.com/watch?v=f-yLYjvPiLE">I’d prefer to write my own code to select and manipulate the DOM.</a> Think of it as a mix and match of a collection of alias functions around <code class="language-plaintext highlighter-rouge">.querySelector()</code>, <code class="language-plaintext highlighter-rouge">.querySelectorAll()</code>, <code class="language-plaintext highlighter-rouge">.addEventListener()</code> and a couple of more, bundled into <code class="language-plaintext highlighter-rouge">global</code> namespace or <code class="language-plaintext highlighter-rouge">window</code> object.</p>
 
-<p>In case you were wondering, this site is:</p>
+<p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">In other words, a stripped-down version of those huge JS libraries like jQuery, jqLite, et al.</a></p>
 
-<ul>
-  <li>
-<img class="emoji" title=":lock:" alt=":lock:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f512.png" height="20" width="20"> Designed from the <a href="https://github.com/kosalanuwan/otto-theme">Otto Theme</a>
-</li>
-  <li>Coded with <a href="https://github.com/microsoft/vscode">VS Code</a>
-</li>
-  <li>Built on <a href="https://github.com/envygeeks/jekyll-docker">Jekyll Docker</a>
-</li>
-  <li>Published with <a href="https://github.com/peaceiris/actions-gh-pages">GitHub Actions for GitHub Pages</a>, and</li>
-  <li>Hosted on <a href="https://github.com/kosalanuwan/kosalanuwan.github.io">GitHub Pages</a>
-</li>
-</ul>
+<p><strong>Examples in use:</strong></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Show page content if the element has a route link
+ */</span>
+<span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
+</code></pre></div></div>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Validate all input fields
+ */</span>
+<span class="nx">$$</span><span class="p">(</span><span class="dl">'</span><span class="s1">input[text]</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">input</span><span class="dl">'</span><span class="p">,</span> <span class="nx">checkValidity</span><span class="p">);</span>
+</code></pre></div></div>
 
-<p>And, this article amongst rest are written in <a href="">Markdown</a> with <a href="">Paper app</a>.</p>
+<p>And, for that, I <strong>do</strong> dig into those libraries in order to pull out what is needed, with <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> of course. <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">Luckily, they are all opensourced!</a></p>
 
-<p>For starters, you want to have a look at <a href="">Docsify</a>. It is a documentation site generator with <a href="">a great community support</a>. <a href="">Awesome Docsify</a> is a good source of information. <a href="">I played around a bit with Docsify</a> and <a href="">wrote a plugin or two</a> as well for my needs, but that was before I picked Jekyll and it’s still a work in-progress.</p>
+<p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code I pulled together as my own nano-library for DOM manipulation.</a></p>
+
 
 </article>
   </div>
