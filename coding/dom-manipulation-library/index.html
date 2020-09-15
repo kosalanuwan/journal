@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/bliki/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/bliki/assets/css/main.css?202009121756" type="text/css">
+  <link rel="stylesheet" href="/bliki/assets/css/main.css?202009150430" type="text/css">
 </head>
 
 <body>
@@ -85,11 +85,12 @@
     <blockquote></blockquote>
   
   
-  <p><a href="https://www.youtube.com/watch?v=f-yLYjvPiLE">I’d prefer to write my own code to select and manipulate the DOM.</a> Think of it as a mix and match of a collection of alias functions around <code class="language-plaintext highlighter-rouge">.querySelector()</code>, <code class="language-plaintext highlighter-rouge">.querySelectorAll()</code>, <code class="language-plaintext highlighter-rouge">.addEventListener()</code> and a couple of more, bundled into <code class="language-plaintext highlighter-rouge">global</code> namespace or <code class="language-plaintext highlighter-rouge">window</code> object.</p>
+  <p>I’d prefer to write my own code to select and manipulate the DOM. Think of it as a mix and match of a collection of alias functions around <code class="language-plaintext highlighter-rouge">.querySelector()</code>, <code class="language-plaintext highlighter-rouge">.querySelectorAll()</code>, <code class="language-plaintext highlighter-rouge">.addEventListener()</code> and a couple of more, bundled into <code class="language-plaintext highlighter-rouge">global</code> namespace or <code class="language-plaintext highlighter-rouge">window</code> object.</p>
 
-<p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">In other words, a stripped-down version of those huge JS libraries like jQuery, jqLite, et al.</a></p>
+<p>In other words, a stripped-down version of those huge JS libraries like jQuery, jqLite, et al.</p>
 
-<p><strong>Examples in use:</strong></p>
+<h3 id="examples-in-use">Examples in use:</h3>
+
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
  * Show page content if the element has a route link
  */</span>
@@ -101,9 +102,31 @@
 <span class="nx">$$</span><span class="p">(</span><span class="dl">'</span><span class="s1">input[text]</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">input</span><span class="dl">'</span><span class="p">,</span> <span class="nx">checkValidity</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>And, for that, I <strong>do</strong> dig into those libraries in order to pull out what is needed, with <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> of course. <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">Luckily, they are all opensourced!</a></p>
-
 <p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code I pulled together as my own nano-library for DOM manipulation.</a></p>
+
+<p>And, for that, I <strong>do</strong> dig into those libraries in order to pull out what is needed, with <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> of course. Luckily, they are all opensourced <img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20">!</p>
+
+<hr>
+
+<h3 id="references">References:</h3>
+
+<ol>
+  <li>All things javascript, LLC. (2017). <a href="https://www.youtube.com/watch?v=f-yLYjvPiLE"><em>Selecting DOM elements with pure javascript</em></a> [Video].</li>
+  <li>Ferdinandi, C. (2017). <a href="https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/">How to show and hide elements with vanilla javascript</a> [Blog] <em>Go make things</em>.</li>
+  <li>Ferdinandi, C. (2019). <a href="https://gomakethings.com/why-do-people-choose-frameworks-over-vanilla-js/">Why do people choose frameworks over vanilla javascript?</a> [Blog] <em>Go make things</em>.</li>
+  <li>
+<a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">290-odd  results for the topic “utilities” in javascript search at the time of writing</a> [Query].</li>
+  <li>Ferdinandi, C. (2019). <a href="https://gomakethings.com/how-to-create-your-own-vanilla-js-dom-manipulation-library-like-jquery/">How to create your own vanilla javascript DOM manipulation library like jQuery?</a> [Blog] <em>Go make things</em>.</li>
+  <li>Ferdinandi, C. (2017). <a href="https://gomakethings.com/creating-a-chainable-micro-library-with-vanilla-javascript/">Creating a chainable micro-library with vanilla javascript</a> [Blog] <em>Go make things</em>.</li>
+  <li>Ferdinandi, C. (no date). <a href="https://leanweb.dev/ebook/lean-web-principles/"><em>Lean Web Principles - The new best practices for simpler, faster websites</em></a> [E-book]. The lean web.</li>
+  <li>DevDelight. (2019, Aug 9). <a href="https://www.youtube.com/watch?v=_VB5hrB5CsI"><em>Javascript style guide for beginners</em></a> [Video].</li>
+  <li>All things javascript, LLC. (2020, Jan 23). <a href="https://www.youtube.com/playlist?list=PLTo9PCskHpbGaCR6vjk1q4ohcEm8cBtzN"><em>Javascript prototypes</em></a> [Video playlist].</li>
+  <li>Osmani, A. (2012). <a href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html">“Javascript namespace fundamentals” in <em>Learning javascript design patterns</em></a>. O’Reilly, ch. 13.</li>
+  <li>Chaudhary, V. (2016). <a href="https://www.dotnetforall.com/namespace-scoping-javascript/">Learning javascript namspaces and scoping</a> [Blog] <em>Dot net for all</em>.</li>
+  <li>@30-seconds. (2018). <a href="https://github.com/30-seconds/30-seconds-of-code"><em>30 seconds of code - javascript snippets</em></a> [Repo].</li>
+  <li>Mazzarri, M. (2014). <a href="https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/">How to document your javascript code</a> [Blog] <em>Milmazz blog</em>.</li>
+  <li>Traversy Media. (2019). <a href="https://www.youtube.com/watch?v=YK-GurROGIg"><em>Documenting your javascript with JSDoc - Crash course</em></a> [Video].</li>
+</ol>
 
 
 </article>
