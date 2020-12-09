@@ -11,7 +11,7 @@
   <meta name="description" content="&lt;a href=&quot;https://kosalanuwan.github.io&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer notes for himself. This bliki, its content, and opinions are his own.">
 
   
-    <meta name="keywords" content="coding">
+    <meta name="keywords" content="vanilla-js">
   
 
   
@@ -20,11 +20,11 @@
 
   <title>
     
-      Write your own DOM manipulation library &middot; #bliki
+      Writing a JS utility library &middot; #bliki
     
   </title>
 
-  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/coding/dom-manipulation-library/">
+  <link rel="canonical" href="https://kosalanuwan.github.io/bliki/vanilla-js/js-utility-library">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for #bliki" href="https://kosalanuwan.github.io/bliki/atom.xml">
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/bliki/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/bliki/assets/css/main.css?202010241838" type="text/css">
+  <link rel="stylesheet" href="/bliki/assets/css/main.css?202012090632" type="text/css">
 </head>
 
 <body>
@@ -56,7 +56,7 @@
   </div>
   <hr>
   <div class="container">
-    <h2>Write your own DOM manipulation library</h2>
+    <h2>Writing a JS utility library</h2>
 
 
 
@@ -67,7 +67,7 @@
 
 
 <div class="meta">
-    12th August 2020
+    5th September 2020
 </div>
 
 <small class="meta">
@@ -85,27 +85,30 @@
     <blockquote></blockquote>
   
   
-  <p>I’d prefer to write my own code for DOM manipulation. In other words, a stripped-down version of JS libraries like jQuery. But one thing! Why the montage of “<code class="language-plaintext highlighter-rouge">$</code>” in the JS world when querying the DOM? <a href="https://www.quora.com/What-does-mean-in-JavaScript-2/answer/Andrew-Smith-1766">After a few minutes of duckduckgo, here’s what I’ve found</a>.</p>
+  <p>Remember the stuff we picked up <a href="/bliki/dom-manipulation-library/">writing a stripped-down version of jQuery?</a> Think of this as a stripped-down version of lodash, a mix and match of a few helper methods from utility libraries, then bundled together into <code class="language-plaintext highlighter-rouge">global</code> namespace as <code class="language-plaintext highlighter-rouge">_</code>.</p>
 
-<p>Think of it as a mix and match of a few aliases of native browser API calls like <code class="language-plaintext highlighter-rouge">.querySelector()</code>, <code class="language-plaintext highlighter-rouge">.querySelectorAll()</code> et al, then bundled together into <code class="language-plaintext highlighter-rouge">global</code> namespace as <code class="language-plaintext highlighter-rouge">$</code>.</p>
+<p><a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">It was a real hail mary</a>, but the code isn’t complicated as other huge JS libraries like angular or babel. <a href="#references">A couple of days and a 3-4 utility libraries on GitHub later</a>, I was able to pulled togher my own utility belt library.</p>
+
+<p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code on GitHub.</a></p>
 
 <h3 id="examples-in-use">Examples in use:</h3>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
- * Wire a 'click' event to the &lt;body&gt; tag
+ * Use as typical '_' utility functions
  */</span>
-<span class="kd">var</span> <span class="nx">bodyEl</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">);</span>
-<span class="nx">$on</span><span class="p">(</span><span class="nx">bodyEl</span><span class="p">,</span> <span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
+<span class="nx">_</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">,</span> <span class="nx">username</span><span class="p">);</span>
+<span class="nx">_</span><span class="p">.</span><span class="nx">kebabCase</span><span class="p">(</span><span class="dl">'</span><span class="s1">Some teXt to Kebab case</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">_</span><span class="p">.</span><span class="nx">isblank</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
 
 <span class="cm">/**
- * Do the same with chaining and prototype option
+ * Or, do the same with chaining and prototype option
  */</span>
-<span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
+<span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+<span class="dl">'</span><span class="s1">Some teXt to Kebab case</span><span class="dl">'</span><span class="p">.</span><span class="nx">toKebabCase</span><span class="p">();</span>
+<span class="nx">username</span><span class="p">.</span><span class="nx">isblank</span><span class="p">();</span>
 </code></pre></div></div>
 
-<p><a href="#references">You’d be amaze how difficult it is to find out the pieces</a>. And, for that, I <strong>do</strong> dig into those <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">opensourced libraries</a> in order to pull out what is needed <img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20">!</p>
-
-<p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code</a> I pulled together as my own nano-library for DOM manipulation.</p>
+<p><a href="https://code-examples.net/en/q/26ad93#answer3">You’d be amaze how tricky it is to enable both function and prototype options</a>. And for that, I <strong>do</strong> dig into <a href="https://github.com/esamattis/underscore.string/blob/master/index.js#L105-L140">underscore-string utility library in order to pull out what is needed</a> <img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20">!</p>
 
 <hr>
 
@@ -113,14 +116,15 @@
 
 <ol>
   <li>Ferdinandi, C. (2019). <a href="https://gomakethings.com/why-do-people-choose-frameworks-over-vanilla-js/">Why do people choose frameworks over vanilla javascript?</a> [Blog] <em>Go make things</em>.</li>
-  <li>All things javascript, LLC. (2017). <a href="https://www.youtube.com/watch?v=f-yLYjvPiLE"><em>Selecting DOM elements with pure javascript</em></a> [Video].</li>
-  <li>Ferdinandi, C. (2017). <a href="https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/">How to show and hide elements with vanilla javascript</a> [Blog] <em>Go make things</em>.</li>
+  <li>@esamattis. (2018). <a href="https://github.com/esamattis/underscore.string"><em>Underscore.string</em></a> [Repo].</li>
+  <li>@jashkenas. (2010). <a href="https://github.com/jashkenas/underscore"><em>Underscore</em></a> [Repo].</li>
+  <li>@lodash. (2010). <a href="https://github.com/lodash/lodash"><em>Lodash</em></a> [Repo].</li>
+  <li>@angular. (2012). <a href="https://github.com/angular/angular.js"><em>Angular.js</em></a> [Repo].</li>
   <li>All things javascript, LLC. (2020, Jan 23). <a href="https://www.youtube.com/playlist?list=PLTo9PCskHpbGaCR6vjk1q4ohcEm8cBtzN"><em>Javascript prototypes</em></a> [Video playlist].</li>
   <li>Osmani, A. (2012). <a href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html">“Javascript namespace fundamentals” in <em>Learning javascript design patterns</em></a>. O’Reilly, ch. 13.</li>
   <li>Chaudhary, V. (2016). <a href="https://www.dotnetforall.com/namespace-scoping-javascript/">Learning javascript namspaces and scoping</a> [Blog] <em>Dot net for all</em>.</li>
   <li>Ferdinandi, C. (no date). <a href="https://leanweb.dev/ebook/lean-web-principles/"><em>Lean Web Principles - The new best practices for simpler, faster websites</em></a> [E-book]. The lean web.</li>
   <li>DevDelight. (2019, Aug 9). <a href="https://www.youtube.com/watch?v=_VB5hrB5CsI"><em>Javascript style guide for beginners</em></a> [Video].</li>
-  <li>@30-seconds. (2018). <a href="https://github.com/30-seconds/30-seconds-of-code"><em>30 seconds of code - javascript snippets</em></a> [Repo].</li>
   <li>Mazzarri, M. (2014). <a href="https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/">How to document your javascript code</a> [Blog] <em>Milmazz blog</em>.</li>
   <li>Traversy Media. (2019). <a href="https://www.youtube.com/watch?v=YK-GurROGIg"><em>Documenting your javascript with JSDoc - Crash course</em></a> [Video].</li>
 </ol>
