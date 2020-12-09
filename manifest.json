@@ -1,0 +1,23 @@
+
+{
+  "short_name": "bliki",
+  "name": "bliki",
+  "description": "&lt;a href=\&quot;https://kosalanuwan.github.io\&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer notes for himself. This bliki, its content, and opinions are his own.",
+  "icons": [
+    {
+      "src": "/bliki/splash-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/bliki/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/bliki/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/bliki/",
+  "theme_color": "#ffffff"
+}
