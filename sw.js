@@ -6,7 +6,7 @@ self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "/bliki/assets/css/main.css?202012091341",
+        "/bliki/assets/css/main.css?202012111042",
         "/bliki/"
       ]);
     })
