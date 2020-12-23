@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/bliki/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/bliki/" rel="alternate" type="text/html" /><updated>2020-12-18T13:21:47+00:00</updated><id>https://kosalanuwan.github.io/bliki/feed.xml</id><title type="html">bliki</title><subtitle>@kosalanuwan's personal bliki. I blog about tech, code, culture, and above all, the open web. The design and the source for this site are not publicly available.</subtitle><entry><title type="html">Writing a JS utility library</title><link href="https://kosalanuwan.github.io/bliki/vanilla-js/js-utility-library" rel="alternate" type="text/html" title="Writing a JS utility library" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/vanilla-js/js-utility-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/vanilla-js/js-utility-library">&lt;p&gt;Remember the stuff we picked up &lt;a href=&quot;/bliki/dom-manipulation-library/&quot;&gt;writing a stripped-down version of jQuery?&lt;/a&gt; Think of this as a stripped-down version of lodash, a mix and match of a few helper methods from utility libraries, then bundled together into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/journal/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/journal/" rel="alternate" type="text/html" /><updated>2020-12-23T07:56:14+00:00</updated><id>https://kosalanuwan.github.io/journal/feed.xml</id><title type="html">journal</title><subtitle>@kosalanuwan's journal entries. I blog about tech, code, culture, and above all, the open web. The design and the source for this site are not publicly available.</subtitle><entry><title type="html">Writing a JS utility library</title><link href="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library" rel="alternate" type="text/html" title="Writing a JS utility library" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library">&lt;p&gt;Remember the stuff we picked up &lt;a href=&quot;/journal/dom-manipulation-library/&quot;&gt;writing a stripped-down version of jQuery?&lt;/a&gt; Think of this as a stripped-down version of lodash, a mix and match of a few helper methods from utility libraries, then bundled together into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/topics/utilities?l=javascript&amp;amp;o=desc&amp;amp;s=stars&quot;&gt;It was a real hail mary&lt;/a&gt;, but the code isn’t complicated as other huge JS libraries like angular or babel. &lt;a href=&quot;#references&quot;&gt;A couple of days and a 3-4 utility libraries on GitHub later&lt;/a&gt;, I was able to pulled togher my own utility belt library.&lt;/p&gt;
 
@@ -40,147 +40,7 @@
   &lt;li&gt;DevDelight. (2019, Aug 9). &lt;a href=&quot;https://www.youtube.com/watch?v=_VB5hrB5CsI&quot;&gt;&lt;em&gt;Javascript style guide for beginners&lt;/em&gt;&lt;/a&gt; [Video].&lt;/li&gt;
   &lt;li&gt;Mazzarri, M. (2014). &lt;a href=&quot;https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/&quot;&gt;How to document your javascript code&lt;/a&gt; [Blog] &lt;em&gt;Milmazz blog&lt;/em&gt;.&lt;/li&gt;
   &lt;li&gt;Traversy Media. (2019). &lt;a href=&quot;https://www.youtube.com/watch?v=YK-GurROGIg&quot;&gt;&lt;em&gt;Documenting your javascript with JSDoc - Crash course&lt;/em&gt;&lt;/a&gt; [Video].&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">GitHub Sites</title><link href="https://kosalanuwan.github.io/bliki/2020/08/22/gh-sites/" rel="alternate" type="text/html" title="GitHub Sites" /><published>2020-08-22T00:00:00+00:00</published><updated>2020-08-22T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/2020/08/22/gh-sites</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/2020/08/22/gh-sites/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/bliki/hello-world/&quot;&gt;Hello world article&lt;/a&gt; pretty much covers all the dev tools and apps I use&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docsify.js.org/&quot;&gt;Docsify JS&lt;/a&gt; is a JS-based alternative approach to Jekyll
-    &lt;ul&gt;
-      &lt;li&gt;Contributors hangout &lt;a href=&quot;https://discord.gg/drxw8sq&quot;&gt;at discord.com&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shields.io/&quot;&gt;Shields.io&lt;/a&gt; is the go-to place for badges&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jemoji&quot;&gt;Jekyll Emoji&lt;/a&gt; to render emojis on GitHub sites
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-otto-theme/blob/master/_sass/otto/_emoji-optimize.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_emoji-optimize.scss&lt;/code&gt;&lt;/a&gt; contains inline content related fixes&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-talks-site/blob/master/_includes/speaker-deck.html&quot;&gt;Speaker Decks&lt;/a&gt; to embed powerpoint slides
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-talks-site/blob/master/_sass/otto/_speaker-deck.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_speaker-deck.scss&lt;/code&gt;&lt;/a&gt; maintains the aspect ratio&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-bliki-site/blob/master/_includes/post-meta.html&quot;&gt;Twitter Button&lt;/a&gt; for social sharing
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/kosalanuwan/gh-otto-theme/blob/master/_sass/otto/_social-icons.scss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_social-icons.scss&lt;/code&gt;&lt;/a&gt; for making it looks better&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;coding&quot;&gt;Coding&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devhints.io/jekyll&quot;&gt;Cheat sheet for Jekyll&lt;/a&gt; has a lot of Liquid syntax&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mdo/jekyll-snippets&quot;&gt;Jekyll code snippets&lt;/a&gt; by Mark Otto is a good source of how to do this and that&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2014/09/25/sass-and-jekyll/&quot;&gt;SCSS with Jekyll&lt;/a&gt; by Mark Otto is the best guide for themes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2018/11/05/css-dark-mode/&quot;&gt;CSS dark mode&lt;/a&gt; article on how to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://solutionoptimist.com/awesome-github-tricks/&quot;&gt;Host Web Apps and Images&lt;/a&gt; article on how to use GitHub as a CDN&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/a/9195560/257727&quot;&gt;Link other posts and pages&lt;/a&gt; has everything need to know to properly link posts from other pages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;general-guides&quot;&gt;General Guides&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codeguide.co/&quot;&gt;CodeGuide&lt;/a&gt; for HTML and CSS&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wtfhtmlcss.com/&quot;&gt;WTF? HTML and CSS&lt;/a&gt; has some tips and tricks&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/sass-style-guide/&quot;&gt;SCSS style guide&lt;/a&gt; article on CSS tricks is also a good source&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;themes&quot;&gt;Themes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wtfhtmlcss.com/&quot;&gt;WTF? HTML and CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://demo.getpoole.com/page2/&quot;&gt;Poole&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hyde.getpoole.com/&quot;&gt;Hyde&lt;/a&gt; is a two-column theme based on Poole&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/github-actions-getting-started&quot;&gt;GitHub Actions&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/aaron-stewart&quot;&gt;Aaron Stewart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/building-custom-github-actions&quot;&gt;Customize GitHub Actions&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/enrico-campidoglio&quot;&gt;Enrico Campidoglio&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/library/courses/supercharging-git-workflow&quot;&gt;GitHub Workflow&lt;/a&gt; by &lt;a href=&quot;https://app.pluralsight.com/profile/author/aaron-stewart&quot;&gt;Aaron Stewart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://app.pluralsight.com/paths/skills/collaborative-coding-with-github&quot;&gt;Coding with GitHub&lt;/a&gt; Learner path on Pluralsight&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Curated list of online resources referred during the past building and deploying github sites using jekyll, liquid, and markdown.</summary></entry><entry><title type="html">GitHub and Git</title><link href="https://kosalanuwan.github.io/bliki/2020/08/21/gh-and-git/" rel="alternate" type="text/html" title="GitHub and Git" /><published>2020-08-21T00:00:00+00:00</published><updated>2020-08-21T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/2020/08/21/gh-and-git</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/2020/08/21/gh-and-git/">&lt;h3 id=&quot;software--tools&quot;&gt;Software &amp;amp; Tools&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git and GitBash&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cli.github.com/&quot;&gt;GitHub CLI&lt;/a&gt; to try GitHub on the terminal&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop app&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Paper app&lt;/a&gt; for markdown editing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;vs-code-extensions&quot;&gt;VS Code Extensions&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;:+1: &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;Git Lens by Eric Amodio&lt;/a&gt; annotates valuable git insights seemlessly on the code editor&lt;/li&gt;
-  &lt;li&gt;:+1: &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&quot;&gt;Git Graph by Michael Hutchison&lt;/a&gt; visualize git activities of the repository&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&quot;&gt;Git History by Don Jayamanne&lt;/a&gt; shows the log, file history, and compare branches or commits&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame&quot;&gt;Git Blame by Wade Anderson&lt;/a&gt; shows the last edited author in the statusbar&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&quot;&gt;GitHub for VS Code&lt;/a&gt; allows you to review and manage pull requests and issues&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;conventional-commits&quot;&gt;Conventional Commits&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.conventionalcommits.org/en/v1.0.0/#summary&quot;&gt;The official conventional commits guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit&quot;&gt;The original guide introduced by the Angular team&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit&quot;&gt;Git commit message conventions with examples&lt;/a&gt; discusses the objectives and examples of commit messages&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword&quot;&gt;Link issues and pull requests using commit messages&lt;/a&gt; is useful to close issues when the pull requests are merged&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;cli-tools&quot;&gt;CLI Tools&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/conventional-changelog/standard-version&quot;&gt;Standard Version&lt;/a&gt; is a CLI tool by &lt;a href=&quot;https://github.com/conventional-changelog&quot;&gt;Conventional Changelog&lt;/a&gt; used to bump-up version according to semver and to generate CHANGELOG based on conventional commits&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/conventional-changelog/commitlint&quot;&gt;Commit Lint&lt;/a&gt; is another CLI tool to verify commit messages and suggest corrections&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ikatyang/emoji-cheat-sheet&quot;&gt;Emoji cheat sheet&lt;/a&gt; generated via &lt;a href=&quot;https://api.github.com/emojis&quot;&gt;GitHub Emoji API&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/alertbox/bookworm&quot;&gt;Bookworm&lt;/a&gt; repository has some templates for &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/CONTRIBUTING.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CONTRIBUTING.md&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/README.md&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&quot;https://github.com/alertbox/bookworm/blob/master/.gitignore&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/vscode/wiki/How-to-Contribute&quot;&gt;VS Code&lt;/a&gt;, &lt;a href=&quot;https://github.com/facebook/flow&quot;&gt;Flow&lt;/a&gt;, &lt;a href=&quot;https://github.com/babel&quot;&gt;Babel&lt;/a&gt;, &lt;a href=&quot;https://github.com/parcel-bundler/parcel/blob/v2/CONTRIBUTING.md&quot;&gt;Parcel JS Bundler&lt;/a&gt; repos also have good documentation&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://contributor-covenant.org/&quot;&gt;Contributor Covenant&lt;/a&gt; for Code of Conduct&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://opencollective.com/&quot;&gt;Open Collective&lt;/a&gt; for sponsorships&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://flow.org/en/docs/usage/&quot;&gt;Flow&lt;/a&gt; and &lt;a href=&quot;https://babeljs.io/docs/en/usage&quot;&gt;Babel&lt;/a&gt; sites for Usage and Getting Started Guides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;videos&quot;&gt;Videos&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vimeo.com/72955426&quot;&gt;More Git &amp;amp; GitHub Secrets by Zach Holman&lt;/a&gt; reveals hidden and not so hidden tips and tricks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY&quot;&gt;Free Classes by GitHub Training &amp;amp; Guides&lt;/a&gt; is playlist with series of how-tos on various GitHub features&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;community&quot;&gt;Community&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tiimgreen/github-cheat-sheet#readme&quot;&gt;Git and GitHub Secrets&lt;/a&gt; has awesome list of tips and tricks&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bilalarslan.me/git-cheat-sheet/&quot;&gt;Git and Gitflow Cheat Sheet&lt;/a&gt; is an awesome list of git commands&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/compscilauren/awesome-git-hooks#readme&quot;&gt;Git Hooks Awesome List&lt;/a&gt; contains everything need to know about hooking up custom scripts&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Curated list of online resources referred during the past when doing OSS work using GitHub and git.</summary></entry><entry><title type="html">Message Handlers on Web API vs. MVC</title><link href="https://kosalanuwan.github.io/bliki/2020/08/12/webapi-message-handlers/" rel="alternate" type="text/html" title="Message Handlers on Web API vs. MVC" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/2020/08/12/webapi-message-handlers</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/2020/08/12/webapi-message-handlers/">&lt;p&gt;If you were wondering, have a look at &lt;a href=&quot;https://github.com/auth0-samples/aspnet-samples/blob/master/Samples/webapi/Api/App_Start/JsonWebTokenValidationHandler.cs&quot;&gt;this auth0 sample code snippet on asp.net&lt;/a&gt;. It uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; to wire access token validation. I tried to do the same with an MVC web app but had hard luck :-1: getting it to work, and here’s why it is was a terrible idea.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/35905246/257727&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; are part of the Web API Pipeline&lt;/a&gt; and won’t work with MVC web apps. Also, there were &lt;a href=&quot;https://stackoverflow.com/a/9495189/257727&quot;&gt;some considerable differences between the two kinds of controllers&lt;/a&gt;, one meant to serve views and the other meant to serve data. &lt;a href=&quot;https://docs.microsoft.com/en-us/archive/blogs/kiranchalla/content-negotiation-in-asp-net-mvc4-web-api-beta-part-1&quot;&gt;The Content Negotiation Algorithm (Conneg) in the ASP.NET stack&lt;/a&gt; is a good source of information regarding how the requests and responses were acknowledged based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Accept&lt;/code&gt; header and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;And for the MVC web apps, a possible fix, or rather an alternative to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MessageHandlers&lt;/code&gt; was &lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters&quot;&gt;to write a Custom Action Filter&lt;/a&gt;, otherwise move the backend API endpoints to a &lt;a href=&quot;https://www.tutlane.com/tutorial/aspnet-mvc/create-use-asp-net-web-api-service-in-asp-net-mvc-application-with-example&quot;&gt;Web API within the MVC app&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author></entry><entry><title type="html">Writing a DOM manipulation library</title><link href="https://kosalanuwan.github.io/bliki/vanilla-js/dom-manipulation-library/" rel="alternate" type="text/html" title="Writing a DOM manipulation library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/vanilla-js/dom-manipulation-library</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/vanilla-js/dom-manipulation-library/">&lt;p&gt;I’d prefer to write my own code for DOM manipulation. In other words, a stripped-down version of JS libraries like jQuery. But one thing! Why the montage of “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;” in the JS world when querying the DOM? &lt;a href=&quot;https://www.quora.com/What-does-mean-in-JavaScript-2/answer/Andrew-Smith-1766&quot;&gt;After a few minutes of duckduckgo, here’s what I’ve found&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">Writing a DOM manipulation library</title><link href="https://kosalanuwan.github.io/journal/vanilla-js/dom-manipulation-library/" rel="alternate" type="text/html" title="Writing a DOM manipulation library" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/vanilla-js/dom-manipulation-library</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/vanilla-js/dom-manipulation-library/">&lt;p&gt;I’d prefer to write my own code for DOM manipulation. In other words, a stripped-down version of JS libraries like jQuery. But one thing! Why the montage of “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;” in the JS world when querying the DOM? &lt;a href=&quot;https://www.quora.com/What-does-mean-in-JavaScript-2/answer/Andrew-Smith-1766&quot;&gt;After a few minutes of duckduckgo, here’s what I’ve found&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Think of it as a mix and match of a few aliases of native browser API calls like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelector()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.querySelectorAll()&lt;/code&gt; et al, then bundled together into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;.&lt;/p&gt;
 
@@ -218,15 +78,15 @@
   &lt;li&gt;@30-seconds. (2018). &lt;a href=&quot;https://github.com/30-seconds/30-seconds-of-code&quot;&gt;&lt;em&gt;30 seconds of code - javascript snippets&lt;/em&gt;&lt;/a&gt; [Repo].&lt;/li&gt;
   &lt;li&gt;Mazzarri, M. (2014). &lt;a href=&quot;https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/&quot;&gt;How to document your javascript code&lt;/a&gt; [Blog] &lt;em&gt;Milmazz blog&lt;/em&gt;.&lt;/li&gt;
   &lt;li&gt;Traversy Media. (2019). &lt;a href=&quot;https://www.youtube.com/watch?v=YK-GurROGIg&quot;&gt;&lt;em&gt;Documenting your javascript with JSDoc - Crash course&lt;/em&gt;&lt;/a&gt; [Video].&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">NPM for web developers</title><link href="https://kosalanuwan.github.io/bliki/2020/04/01/npm-for-web-devs/" rel="alternate" type="text/html" title="NPM for web developers" /><published>2020-04-01T00:00:00+00:00</published><updated>2020-04-01T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/2020/04/01/npm-for-web-devs</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/2020/04/01/npm-for-web-devs/">&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zellwk.com/blog/publish-to-npm/&quot;&gt;Publish packages to npm using np&lt;/a&gt; demonstrates how to publish JavaScript libraries to npm
-    &lt;ul&gt;
-      &lt;li&gt;The approach used to publish &lt;a href=&quot;https://github.com/alertbox/docsify-footer/blob/master/CONTRIBUTING.md#publishing&quot;&gt;docsify-footer plugin&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://markdotto.com/2020/04/01/npm-dist-tags/&quot;&gt;Publish package to npm using dist tags&lt;/a&gt; is also a good practice but haven’t had the change to try it&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Curated list of online resources referred during the past when using npm and related dev tools to build and run heavy-js web apps.</summary></entry><entry><title type="html">Setting up the developer environment</title><link href="https://kosalanuwan.github.io/bliki/getting-started/dev-environments/" rel="alternate" type="text/html" title="Setting up the developer environment" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/getting-started/developer-environments</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/getting-started/dev-environments/"></content><author><name></name></author><category term="getting-started" /></entry><entry><title type="html">Personal productivity</title><link href="https://kosalanuwan.github.io/bliki/personal-notes/personal-productivity/" rel="alternate" type="text/html" title="Personal productivity" /><published>2017-11-05T00:00:00+00:00</published><updated>2017-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/personal-notes/productivity</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/personal-notes/personal-productivity/">&lt;p&gt;Here’s my &lt;em&gt;deliberate efforts&lt;/em&gt; to keep dancing. These tools and techniques are based on my personal preference and probably might work for you as well. Also, I may have literally let go of some of these, with :heart: of course, for the preference of my employers and clientele. For starters, you want to have a look at the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL1emq-Tbw7AG2yr7uxrnHLZpznSt_dX-z&quot;&gt;Productivity 101 playlist on YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">Setting up the developer environment</title><link href="https://kosalanuwan.github.io/journal/getting-started/dev-environments/" rel="alternate" type="text/html" title="Setting up the developer environment" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/getting-started/developer-environments</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/getting-started/dev-environments/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/alertbox/bookworm/master/screenshot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Otto template site in action.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="getting-started" /></entry><entry><title type="html">Building micro-cms static sites with GitHub Pages</title><link href="https://kosalanuwan.github.io/journal/getting-started/micro-cms-gh-pages/" rel="alternate" type="text/html" title="Building micro-cms static sites with GitHub Pages" /><published>2019-02-10T00:00:00+00:00</published><updated>2019-02-10T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/getting-started/micro-cms-with-gh-pages</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/getting-started/micro-cms-gh-pages/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/alertbox/bookworm/master/screenshot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Micro-CMS static site in action.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="getting-started" /></entry><entry><title type="html">Personal productivity</title><link href="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/" rel="alternate" type="text/html" title="Personal productivity" /><published>2017-11-05T00:00:00+00:00</published><updated>2017-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/personal-notes/productivity</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/">&lt;p&gt;Here’s my &lt;em&gt;deliberate efforts&lt;/em&gt; to keep dancing. These tools and techniques are based on my personal preference and probably might work for you as well. Also, I may have literally let go of some of these, with :heart: of course, for the preference of my employers and clientele. For starters, you want to have a look at the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL1emq-Tbw7AG2yr7uxrnHLZpznSt_dX-z&quot;&gt;Productivity 101 playlist on YouTube&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 
@@ -240,12 +100,12 @@
   &lt;li&gt;&lt;a href=&quot;#budgets&quot;&gt;Budgets&lt;/a&gt; are planned monthly using &lt;a href=&quot;https://&quot;&gt;Google Keep&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I interact with GitHub daily so &lt;a href=&quot;https://kosalanuwan.github.io/bliki/hello-world/&quot;&gt;why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!&lt;/p&gt;
+&lt;p&gt;I interact with GitHub daily so &lt;a href=&quot;https://kosalanuwan.github.io/journal/hello-world/&quot;&gt;why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!&lt;/p&gt;
 
 &lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kosalanuwan.github.io/bliki/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kosalanuwan.github.io/journal/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Previously used OneNote, Evernote, Workflowy, Dropbox Paper, and even Notion.&lt;/p&gt;
@@ -292,7 +152,7 @@
   &lt;li&gt;Listens using &lt;a href=&quot;https://&quot;&gt;Audible app&lt;/a&gt; while on the go&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Credit goes to former colleague and a dear friend, &lt;a href=&quot;https://github.com/hasith&quot;&gt;@hasith&lt;/a&gt;, for showing how to keep up using Audible. I’m a snail-paced reader, still reads a chapter or two occationally &lt;a href=&quot;/books/&quot;&gt;to get inspiration for fiction writing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Credit goes to former colleague and a dear friend, &lt;a href=&quot;https://github.com/hasith&quot;&gt;@hasith&lt;/a&gt;, for showing how to keep up using Audible. I’m a snail-paced reader, still reads a chapter or two occasionally &lt;a href=&quot;/books/&quot;&gt;to get inspiration for fiction writing&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;budgets&quot;&gt;Budgets&lt;/h3&gt;
 
@@ -300,7 +160,7 @@
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Google Keep&lt;/a&gt; as a simple list of expenses with the budgeted amount&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Previously tried many apps and even spreadsheets but that doesn’t seemed to work consistantly for not more than a few months.&lt;/p&gt;</content><author><name></name></author><category term="personal-notes" /></entry><entry><title type="html">Reusing query logic with pipes and filters</title><link href="https://kosalanuwan.github.io/bliki/patterns/ef/pipes-and-filters/" rel="alternate" type="text/html" title="Reusing query logic with pipes and filters" /><published>2010-11-05T00:00:00+00:00</published><updated>2010-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/patterns/ef/pipes-and-filters</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/patterns/ef/pipes-and-filters/"></content><author><name></name></author><category term="patterns" /><category term="ef" /><summary type="html"></summary></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/bliki/personal-notes/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/bliki/personal-notes/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/bliki/personal-notes/hello-world/">&lt;p&gt;Here’s why I gave up all those wide spread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since &lt;a href=&quot;https://kosalanuwan.github.io/bliki/productivity/&quot;&gt;I interact with it daily, so why not use it for everything else&lt;/a&gt;.  Just my personal preference.&lt;/p&gt;
+&lt;p&gt;Previously tried many apps and even spreadsheets but that doesn’t seemed to work consistently for not more than a few months.&lt;/p&gt;</content><author><name></name></author><category term="personal-notes" /></entry><entry><title type="html">Reusing query logic with pipes and filters</title><link href="https://kosalanuwan.github.io/journal/patterns/ef/pipes-and-filters/" rel="alternate" type="text/html" title="Reusing query logic with pipes and filters" /><published>2010-11-05T00:00:00+00:00</published><updated>2010-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/patterns/ef/pipes-and-filters</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/patterns/ef/pipes-and-filters/"></content><author><name></name></author><category term="patterns" /><category term="ef" /><summary type="html"></summary></entry><entry><title type="html">Hello world :wave:</title><link href="https://kosalanuwan.github.io/journal/personal-notes/hello-world/" rel="alternate" type="text/html" title="Hello world :wave:" /><published>1991-07-17T00:00:00+00:00</published><updated>1991-07-17T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/personal-notes/hello-world</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/personal-notes/hello-world/">&lt;p&gt;Here’s why I gave up all those widespread of productivity and notes taking apps from Evernote to Onenote, Workflowy, Trello, Todoist, and even Notion. They are all great apps, but it makes more sense, at least for me, to use GitHub since &lt;a href=&quot;https://kosalanuwan.github.io/journal/productivity/&quot;&gt;I interact with it daily, so why not use it for everything else&lt;/a&gt;.  Just my personal preference.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/kosalanuwan&quot;&gt;&lt;img src=&quot;http://ghchart.rshah.org/BF0000/kosalanuwan&quot; alt=&quot;Kosala Nuwan's GitHub contributions&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -313,10 +173,10 @@
 &lt;ul&gt;
   &lt;li&gt;Originally, a flavor of &lt;a href=&quot;https://github.com/kosalanuwan/gh-site-otto-theme/#readme&quot;&gt;the Otto theme&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Built and published with &lt;a href=&quot;https://github.com/peaceiris/actions-gh-pages&quot;&gt;GitHub Pages Actions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hosted on &lt;a href=&quot;https://github.com/kosalanuwan/bliki&quot;&gt;GitHub Pages&lt;/a&gt;, and&lt;/li&gt;
+  &lt;li&gt;Hosted on &lt;a href=&quot;https://github.com/kosalanuwan/journal&quot;&gt;GitHub Pages&lt;/a&gt;, and&lt;/li&gt;
   &lt;li&gt;Developed with &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code&lt;/a&gt; using &lt;a href=&quot;https://github.com/kosalanuwan/devcontainers&quot;&gt;developer container for Jekyll&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;And, this article amongst rest are written in &lt;a href=&quot;https://&quot;&gt;Markdown&lt;/a&gt; with &lt;a href=&quot;https://&quot;&gt;Paper app&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;https://&quot;&gt;Docsify&lt;/a&gt; and it’s &lt;a href=&quot;https://&quot;&gt;awesome list&lt;/a&gt; is a good source of information. &lt;a href=&quot;https://&quot;&gt;I played around a bit with Docsify and wrote a plugin or two&lt;/a&gt; as well for my own sanity, but that was before I picked Jekyll and it’s still a work in-progress.&lt;/p&gt;</content><author><name></name></author><category term="personal-notes" /></entry></feed>
+&lt;p&gt;For starters, you want to have a look at &lt;a href=&quot;https://&quot;&gt;Docsify&lt;/a&gt; and it’s &lt;a href=&quot;https://&quot;&gt;awesome list&lt;/a&gt; is a good source of information. &lt;a href=&quot;https://&quot;&gt;I played around a bit with Docsify and wrote a plugin or two&lt;/a&gt; as well for own sanity, but that was before I picked Jekyll and it’s still a work-in-progress.&lt;/p&gt;</content><author><name></name></author><category term="personal-notes" /></entry></feed>

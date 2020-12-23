@@ -1,13 +1,13 @@
 
 
-var CACHE_NAME = "bliki";
+var CACHE_NAME = "journal";
 
 self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "/bliki/assets/css/main.css?202012181321",
-        "/bliki/"
+        "/journal/assets/css/main.css?202012230756",
+        "/journal/"
       ]);
     })
   );

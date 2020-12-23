@@ -1,1 +1,1 @@
-Sitemap: https://kosalanuwan.github.io/bliki/sitemap.xml
+Sitemap: https://kosalanuwan.github.io/journal/sitemap.xml
