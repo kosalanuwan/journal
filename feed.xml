@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/journal/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/journal/" rel="alternate" type="text/html" /><updated>2020-12-23T10:38:40+00:00</updated><id>https://kosalanuwan.github.io/journal/feed.xml</id><title type="html">journal</title><subtitle>@kosalanuwan's journal entries. I blog about tech, code, culture, and above all, the open web. The design and the source for this site are not publicly available.</subtitle><entry><title type="html">Writing a JS utility library</title><link href="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library" rel="alternate" type="text/html" title="Writing a JS utility library" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library">&lt;p&gt;Remember the stuff we picked up &lt;a href=&quot;/journal/dom-manipulation-library/&quot;&gt;writing a stripped-down version of jQuery?&lt;/a&gt; Think of this as a stripped-down version of lodash, a mix and match of a few helper methods from utility libraries, then bundled together into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kosalanuwan.github.io/journal/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kosalanuwan.github.io/journal/" rel="alternate" type="text/html" /><updated>2020-12-25T02:01:16+00:00</updated><id>https://kosalanuwan.github.io/journal/feed.xml</id><title type="html">journal</title><subtitle>@kosalanuwan's journal entries. I blog about tech, code, culture, and above all, the open web. The design and the source for this site are not publicly available.</subtitle><entry><title type="html">Writing a JS utility library</title><link href="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library" rel="alternate" type="text/html" title="Writing a JS utility library" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/vanilla-js/js-utility-library">&lt;p&gt;Remember the stuff we picked up &lt;a href=&quot;/journal/dom-manipulation-library/&quot;&gt;writing a stripped-down version of jQuery?&lt;/a&gt; Think of this as a stripped-down version of lodash, a mix and match of a few helper methods from utility libraries, then bundled together into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;global&lt;/code&gt; namespace as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/topics/utilities?l=javascript&amp;amp;o=desc&amp;amp;s=stars&quot;&gt;It was a real hail mary&lt;/a&gt;, but the code isn’t complicated as other huge JS libraries like angular or babel. &lt;a href=&quot;#references&quot;&gt;A couple of days and a 3-4 utility libraries on GitHub later&lt;/a&gt;, I was able to pulled togher my own utility belt library.&lt;/p&gt;
 
@@ -78,10 +78,9 @@
   &lt;li&gt;@30-seconds. (2018). &lt;a href=&quot;https://github.com/30-seconds/30-seconds-of-code&quot;&gt;&lt;em&gt;30 seconds of code - javascript snippets&lt;/em&gt;&lt;/a&gt; [Repo].&lt;/li&gt;
   &lt;li&gt;Mazzarri, M. (2014). &lt;a href=&quot;https://milmazz.uno/article/2014/08/27/how-to-document-your-javascript-code/&quot;&gt;How to document your javascript code&lt;/a&gt; [Blog] &lt;em&gt;Milmazz blog&lt;/em&gt;.&lt;/li&gt;
   &lt;li&gt;Traversy Media. (2019). &lt;a href=&quot;https://www.youtube.com/watch?v=YK-GurROGIg&quot;&gt;&lt;em&gt;Documenting your javascript with JSDoc - Crash course&lt;/em&gt;&lt;/a&gt; [Video].&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">Personal productivity</title><link href="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/" rel="alternate" type="text/html" title="Personal productivity" /><published>2017-11-05T00:00:00+00:00</published><updated>2017-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/personal-notes/productivity</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/">&lt;p&gt;Here’s my &lt;em&gt;deliberate efforts&lt;/em&gt; to keep dancing. These tools and techniques are based on my personal preference and probably might work for you as well. Also, I may have literally let go of some of these, with :heart: of course, for the preference of my employers and clientele. For starters, you want to have a look at the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL1emq-Tbw7AG2yr7uxrnHLZpznSt_dX-z&quot;&gt;Productivity 101 playlist on YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="vanilla-js" /></entry><entry><title type="html">Personal productivity</title><link href="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/" rel="alternate" type="text/html" title="Personal productivity" /><published>2017-11-05T00:00:00+00:00</published><updated>2017-11-05T00:00:00+00:00</updated><id>https://kosalanuwan.github.io/journal/personal-notes/productivity</id><content type="html" xml:base="https://kosalanuwan.github.io/journal/personal-notes/personal-productivity/">&lt;p&gt;Here’s my &lt;em&gt;deliberate efforts&lt;/em&gt; to keep dancing. These tools and apps are my personal preference and probably might work for you as well. Not going to lie, I may have literally let go of some of these for the preference of my employers and clientele.&lt;/p&gt;
 
 &lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#notes&quot;&gt;Notes&lt;/a&gt; written in markdown using &lt;a href=&quot;https://&quot;&gt;Paper app&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#task-tracking&quot;&gt;Task tracking&lt;/a&gt; using &lt;a href=&quot;https://github.com/kosalanuwan&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
@@ -92,10 +91,7 @@
   &lt;li&gt;&lt;a href=&quot;#budgets&quot;&gt;Budgets&lt;/a&gt; are planned monthly using &lt;a href=&quot;https://&quot;&gt;Google Keep&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I interact with GitHub daily so &lt;a href=&quot;https://kosalanuwan.github.io/journal/hello-world/&quot;&gt;why not use it for everything else&lt;/a&gt;. I’m that nerd :nerd_face:!&lt;/p&gt;
-
 &lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://kosalanuwan.github.io/journal/hello-world/&quot;&gt;Written in markdown using Paper app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -103,7 +99,6 @@
 &lt;p&gt;Previously used OneNote, Evernote, Workflowy, Dropbox Paper, and even Notion.&lt;/p&gt;
 
 &lt;h3 id=&quot;task-tracking&quot;&gt;Task tracking&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;GitHub Issues&lt;/a&gt; for task and bug tracking&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Milestones&lt;/a&gt; for road maps and sprint planning, and&lt;/li&gt;
@@ -113,7 +108,6 @@
 &lt;p&gt;This is to keep a track of todos on various projects. Not meant to plan my daily routines. Previously used Trello, Todoist, and even Asana.&lt;/p&gt;
 
 &lt;h3 id=&quot;todo-list&quot;&gt;Todo list&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;:lock: &lt;a href=&quot;https://github.com/kosalanuwan/todo-list/#readme&quot;&gt;Todos repository on GitHub&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;GitHub Issues&lt;/a&gt; for each todo item&lt;/li&gt;
@@ -122,7 +116,6 @@
 &lt;p&gt;It seems like a pretty fantastic idea in lieu of traditional Trello, Todoist, Microsoft Todo, Google Keep, and the like. You want to try out &lt;a href=&quot;https://&quot;&gt;GitHub app on the mobile&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;reminders&quot;&gt;Reminders&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://calendar.google.com&quot;&gt;Google Calendar&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -130,7 +123,6 @@
 &lt;p&gt;Previously tried Workflowy, Microsoft Todo, Trello, but it has always been a &lt;em&gt;calendar&lt;/em&gt; when scheduling meetings, appointments, reminders et al. whether it’s personal or work.&lt;/p&gt;
 
 &lt;h3 id=&quot;emails&quot;&gt;Emails&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Microsoft Outlook Rules&lt;/a&gt; to filter and process emails and meeting invites&lt;/li&gt;
 &lt;/ul&gt;
@@ -138,7 +130,6 @@
 &lt;p&gt;You want to have a look at &lt;a href=&quot;https://www.hanselman.com/blog/TheThreeMostImportantOutlookRulesForProcessingMail.aspx&quot;&gt;Scott Hanselman’s article on Outlook rules for processing emails&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;Audio books purchased from &lt;a href=&quot;http://&quot;&gt;Audible&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Listens using &lt;a href=&quot;https://&quot;&gt;Audible app&lt;/a&gt; while on the go&lt;/li&gt;
@@ -147,7 +138,6 @@
 &lt;p&gt;Credit goes to former colleague and a dear friend, &lt;a href=&quot;https://github.com/hasith&quot;&gt;@hasith&lt;/a&gt;, for showing how to keep up using Audible. I’m a snail-paced reader, still reads a chapter or two occasionally &lt;a href=&quot;/books/&quot;&gt;to get inspiration for fiction writing&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;budgets&quot;&gt;Budgets&lt;/h3&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Google Keep&lt;/a&gt; as a simple list of expenses with the budgeted amount&lt;/li&gt;
 &lt;/ul&gt;
