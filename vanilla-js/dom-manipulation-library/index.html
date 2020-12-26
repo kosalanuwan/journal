@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202012261534" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202012261831" type="text/css">
 </head>
 
 <body>
@@ -88,14 +88,19 @@
   <p>I’d prefer to write my own code for DOM manipulation. Think of it as a stripped-down version of JS libraries like jQuery. I’m not going to write yet another jQuery library but I like the idea of having my own logic to manipulate the DOM, say, a mix and match of native browser API calls.</p>
 
 <h3 id="examples-in-use">Examples in use:</h3>
+
 <ul>
-  <li>Wire a ‘click’ event to the <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> tag
+  <li>
+    <p>Wire a <code class="language-plaintext highlighter-rouge">click</code> event to the <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> tag</p>
+
     <div class="language-js highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">bodyEl</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">);</span>
 <span class="nx">$on</span><span class="p">(</span><span class="nx">bodyEl</span><span class="p">,</span> <span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
 </code></pre></div>    </div>
   </li>
-  <li>Do the same with chaining and prototype option
+  <li>
+    <p>Do the same with chaining and prototype option</p>
+
     <div class="language-js highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
 </code></pre></div>    </div>
