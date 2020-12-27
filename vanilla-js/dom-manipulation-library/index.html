@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202012261831" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202012270514" type="text/css">
 </head>
 
 <body>
@@ -99,7 +99,7 @@
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>Do the same with chaining and prototype option</p>
+    <p>Or, do the same with chaining and prototype option</p>
 
     <div class="language-js highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
@@ -107,13 +107,13 @@
   </li>
 </ul>
 
-<p>The first thing we’re going to need is a lot of digging into jQuery-like utility libraries. Fortunately, all of them are <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">opensourced in GitHub</a> so I’m going to have to get all the pieces from individual repos that are in.</p>
+<p>The first thing we’re going to need is a lot of digging into <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">jQuery-like utility libraries</a>. Fortunately, all of them are opensourced in GitHub so I’m going to have to get all the pieces from individual repos that are in.</p>
 
-<p>First up is an IIFE pattern. It encapsulates all my code and runs as soon as it is defined. So a little anonymous function magic code is all that is necessary to get started. Kids’ stuff.</p>
+<p>First up is an <a href="https://developer.mozilla.org/en-US/docs/Glossary/IIFE">IIFE pattern</a>. It encapsulates all my code and runs as soon as it is defined. So a little anonymous function magic code is all that is necessary to get started. Kids’ stuff.</p>
 
-<p>Next is a Polyfill pattern. I can define all the DOM manipulation script required but the browser will pick them up if not natively supported. MDN has plenty of polyfill code snippets. Excellent.</p>
+<p>Next is a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">Polyfill pattern</a>. I can define all the DOM manipulation script required but the browser will pick them up if not natively supported. <a href="https://github.com/Financial-Times/polyfill-library">@Financial-Times/polyfill-library</a> has plenty of polyfill code snippets. Excellent.</p>
 
-<p>Chaining is a bit tricky. Not only it requires a Prototype pattern, but you also have to search the native DOM elements too. I’m not going to lie, you’d be amazed how difficult it is to find the pieces and if you bind the script to the wrong element, nothing works.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Chaining is a bit tricky</a>. Not only it requires a Prototype pattern, but you also have to search the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">native DOM elements</a> too. I’m not going to lie, you’d be amazed how difficult it is to find the pieces and if you bind the script to the wrong element, nothing works.</p>
 
 <p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code</a> I pulled together as my own nano-library for DOM manipulation.</p>
 
