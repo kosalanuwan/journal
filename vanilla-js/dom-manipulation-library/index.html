@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202012270519" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202012270537" type="text/css">
 </head>
 
 <body>
@@ -113,7 +113,7 @@
 
 <p>Next is a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">Polyfill pattern</a>. I can define all the DOM manipulation script required but the browser will pick them up if not natively supported. <a href="https://github.com/Financial-Times/polyfill-library">@Financial-Times/polyfill-library</a> has plenty of polyfill code snippets. Moving right along.</p>
 
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Chaining is a bit tricky</a>. Not only it requires a Prototype pattern, but you also have to search the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">native DOM elements</a> too. I’m not going to lie, you’d be amazed how difficult it is to find the pieces and if you bind the script to the wrong element, nothing works.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Chaining is a bit tricky</a>. Not only it requires a Prototype pattern, but you also have to search the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">native DOM elements</a> too. There’s no way I’m going to go thru 100s of elements to bind the script one element at a time. So it’s definitely necessary to break out helper functions and modify that to bind in interface or abstract level. I’m not going to lie, you’d be amazed how difficult it is to find the pieces and if you bind the script to the wrong element, nothing works.</p>
 
 <p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code</a> I pulled together as my own nano-library for DOM manipulation.</p>
 
