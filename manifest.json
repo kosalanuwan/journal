@@ -2,7 +2,7 @@
 {
   "short_name": "journal",
   "name": "journal",
-  "description": "&lt;a href=\&quot;https://kosalanuwan.github.io\&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer notes for himself. This journal, its content, and opinions are his own.",
+  "description": "&lt;a href=\&quot;https://kosalanuwan.github.io\&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s developer notes for himself. These journal notes, its content, and opinions are his own.",
   "icons": [
     {
       "src": "/journal/splash-512x512.png",
