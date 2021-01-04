@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202101010751" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202101040536" type="text/css">
 </head>
 
 <body>
@@ -85,25 +85,20 @@
   
   <p>I’d prefer to write my own code for DOM manipulation. Think of it as a stripped-down version of JS libraries like jQuery. I’m not going to write yet another jQuery library but I like the idea of having my own logic to manipulate the DOM, say, a mix and match of native browser API calls.</p>
 
-<h3 id="examples-in-use">Examples in use:</h3>
+<h4 id="example-1">Example <sup>1</sup>
+</h4>
+<p>Wire a <code class="language-plaintext highlighter-rouge">click</code> event to the <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> tag</p>
 
-<ul>
-  <li>
-    <p>Wire a <code class="language-plaintext highlighter-rouge">click</code> event to the <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> tag</p>
-
-    <div class="language-js highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">bodyEl</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">bodyEl</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">);</span>
 <span class="nx">$on</span><span class="p">(</span><span class="nx">bodyEl</span><span class="p">,</span> <span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>Or, do the same with chaining and prototype option</p>
+</code></pre></div></div>
 
-    <div class="language-js highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
+<h4 id="example-2">Example <sup>2</sup>
+</h4>
+<p>Or, do the same with chaining and prototype option</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">body</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">showContentIfRouteLink</span><span class="p">);</span>
+</code></pre></div></div>
 
 <p>The first thing we’re going to need is a lot of digging into <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">jQuery-like utility libraries</a>. Fortunately, all of them are opensourced in GitHub so I’m going to have to get all the pieces from individual repos that are in.</p>
 

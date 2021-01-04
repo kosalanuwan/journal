@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202101010751" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202101040536" type="text/css">
 </head>
 
 <body>
@@ -85,28 +85,23 @@
   
   <p>I prefer having my own JS utility belt library like they do it on Lodash and Underscore.js, say, a stripped-down version of it, then bundled together into <code class="language-plaintext highlighter-rouge">global</code> namespace as <code class="language-plaintext highlighter-rouge">_</code>.</p>
 
-<h3 id="examples-in-use">Examples in use:</h3>
+<h4 id="example-1">Example <sup>1</sup>
+</h4>
+<p>Use as typical <code class="language-plaintext highlighter-rouge">_</code> utility functions</p>
 
-<ul>
-  <li>
-    <p>Use as typical <code class="language-plaintext highlighter-rouge">_</code> utility functions</p>
-
-    <div class="language-js highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code><span class="nx">_</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">,</span> <span class="nx">username</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">_</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">,</span> <span class="nx">username</span><span class="p">);</span>
 <span class="nx">_</span><span class="p">.</span><span class="nx">kebabCase</span><span class="p">(</span><span class="dl">'</span><span class="s1">Some teXt to Kebab case</span><span class="dl">'</span><span class="p">);</span>
 <span class="nx">_</span><span class="p">.</span><span class="nx">isblank</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>Or, do the same with mixin and prototype option</p>
+</code></pre></div></div>
 
-    <div class="language-js highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+<h4 id="example-2">Example <sup>2</sup>
+</h4>
+<p>Or, do the same with mixin and prototype option</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
 <span class="dl">'</span><span class="s1">Some teXt to Kebab case</span><span class="dl">'</span><span class="p">.</span><span class="nx">toKebabCase</span><span class="p">();</span>
 <span class="nx">username</span><span class="p">.</span><span class="nx">isblank</span><span class="p">();</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
+</code></pre></div></div>
 
 <p>The first thing we’re going to need is a few utility libraries. Fortunately, GitHub has plenty of <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">opensourced utility libraries</a>. <a href="https://github.com/lodash/lodash">Lodash</a>, <a href="https://github.com/jashkenas/underscore">Underscore.js</a>, <a href="https://github.com/angular/angular.js/">Angular.js</a> code arn’t difficult to understand as <a href="https://github.com/babel/babel">Babel</a> code. So, I can run a search in the repo and it’ll return all of the code snippets and function definitions. Then I can break out the scripts in individual JS files that are in and save them as my own utility belt library. All I need is a little <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">polyfill</a> magic with a <a href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html">namespace</a>, say, <code class="language-plaintext highlighter-rouge">_</code> and we’re set. Moving right along.</p>
 
