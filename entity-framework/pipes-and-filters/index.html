@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202101101924" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202101110418" type="text/css">
 </head>
 
 <body>
@@ -135,7 +135,7 @@
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>Next is chaining <code class="language-plaintext highlighter-rouge">IQueryable</code> types. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntax so there’s no way of injecting dependencies. I have to break out same extract methods into static methods and pass in the domain-specific <code class="language-plaintext highlighter-rouge">IQueryable</code> domain entity as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
+<p>Next is chaining <code class="language-plaintext highlighter-rouge">IQueryable</code> types. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntax so there’s no way of injecting dependencies. I have to break out same extract methods into static methods and pass in the <code class="language-plaintext highlighter-rouge">IQueryable</code> domain-specific entity type as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter and the C# compiler will do the rest for me. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
 
 <p><a href="https://github.com/kosalanuwan/vscode-remote-try-webapi/#readme">Have a look at the web-api example</a> to see how I use pipes and fiters with onion architecture.</p>
 
