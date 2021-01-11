@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202101111123" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202101111128" type="text/css">
 </head>
 
 <body>
@@ -121,19 +121,19 @@
 <h4 id="example-3">Example <sup>3</sup>
 </h4>
 <p>User-defined LINQ expression for filters.</p>
-<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">var</span> <span class="n">products</span> <span class="p">=</span> <span class="n">db</span><span class="p">.</span><span class="n">Products</span>
-                 <span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="p">!</span><span class="n">p</span><span class="p">.</span><span class="n">Discontinued</span> <span class="p">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">SupplierId</span> <span class="p">==</span> <span class="n">supplierId</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">OrderBy</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="n">p</span><span class="p">.</span><span class="n">ModifiedDate</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">Take</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">db</span><span class="p">.</span><span class="n">Products</span>
+  <span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="p">!</span><span class="n">p</span><span class="p">.</span><span class="n">Discontinued</span> <span class="p">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">SupplierId</span> <span class="p">==</span> <span class="n">supplierId</span><span class="p">)</span>
+  <span class="p">.</span><span class="nf">OrderBy</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="n">p</span><span class="p">.</span><span class="n">ModifiedDate</span><span class="p">)</span>
+  <span class="p">.</span><span class="nf">Take</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
+  <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
 </code></pre></div></div>
 <h4 id="example-4">Example <sup>4</sup>
 </h4>
 <p>Or, use user-defined fluent query extension methods.</p>
-<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">var</span> <span class="n">products</span> <span class="p">=</span> <span class="n">db</span><span class="p">.</span><span class="n">Products</span><span class="p">.</span><span class="nf">Active</span><span class="p">()</span>
-                 <span class="p">.</span><span class="nf">ForSupplier</span><span class="p">(</span><span class="n">supplierId</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">Trending</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">db</span><span class="p">.</span><span class="n">Products</span><span class="p">.</span><span class="nf">Active</span><span class="p">()</span>
+           <span class="p">.</span><span class="nf">ForSupplier</span><span class="p">(</span><span class="n">supplierId</span><span class="p">)</span>
+           <span class="p">.</span><span class="nf">TopTrending</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
+           <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
 </code></pre></div></div>
 
 <p>Next is <a href="https://martinfowler.com/bliki/FluentInterface.html">Fluent</a> <code class="language-plaintext highlighter-rouge">IQueryable</code> types. Not only it allows chaining methods, but you also have to adhere to a <a href="https://martinfowler.com/bliki/DomainSpecificLanguage.html">domain-specific language</a> to describe methods. I can pass in the <code class="language-plaintext highlighter-rouge">IQueryable</code> domain-specific entity type as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter and the C# compiler will do the rest for me. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
