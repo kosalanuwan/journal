@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202101110418" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202101111041" type="text/css">
 </head>
 
 <body>
@@ -103,41 +103,56 @@
 <article>
   <p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/linq/linq-in-csharp">LINQ</a> may look like the best thing every happend to <code class="language-plaintext highlighter-rouge">IEnumerable</code> types but it’s getting  all kinds of help from our friends at C#. For the record, it’s the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods">Extension Methods</a> that enabled <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">query functionality</a> without creating new derived types or modifying original types of enumerables.</p>
 
-<p>I like the idea of extending predefined types with extension methods for domain-specific functionality. It gives the whole thing a very <em>Ubiquitous</em> feel since the LINQ queries are more readable, say, two months from now like <a href="https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29">Uncle Bob say on Clean Code</a>.</p>
+<p>I like the idea of writing data access queries as extension methods. It gives the whole thing a very <em>Ubiquitous</em> feel since the LINQ queries are more readable, say, two months from now like <a href="https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29">Uncle Bob say on Clean Code</a>.</p>
 
 <h4 id="example-1">Example <sup>1</sup>
 </h4>
-<p>Use of pipes and filters to get a list of trending products belong to the supplier.</p>
-<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">db</span><span class="p">.</span><span class="n">Products</span>
-  <span class="p">.</span><span class="nf">ForSupplier</span><span class="p">(</span><span class="n">supplierId</span><span class="p">)</span>
-  <span class="p">.</span><span class="nf">Trending</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
-  <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
+<p>Use of extension methods  for consolidating conditionals.</p>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">results</span><span class="p">.</span><span class="nf">IsEmpty</span><span class="p">())</span> <span class="p">{</span> <span class="k">return</span> <span class="nf">NotFound</span><span class="p">();</span> <span class="p">}</span>
 </code></pre></div></div>
-
-<p>The first thing we are going to need is reusable <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">Lambda expressions</a>. I can <a href="https://sourcemaking.com/refactoring/consolidate-conditional-expression">consolidate</a> user-defined expressions into methods so a little <a href="https://sourcemaking.com/refactoring/extract-class">extract method</a> magic is all that is necessary to get started. Kids’ stuff.</p>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">CollectionExtensions</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsEmpty</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span>
+        <span class="k">this</span> <span class="n">IEnumerable</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">collection</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="p">!</span><span class="n">collection</span><span class="p">.</span><span class="nf">Any</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>The first thing we are going to need is reusable <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">Lambda expressions</a>. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntex. I can <a href="https://sourcemaking.com/refactoring/consolidate-conditional-expression">consolidate</a> query expressions into static methods so a little <a href="https://sourcemaking.com/refactoring/extract-class">extract method</a> magic is all that is necessary to get started. Excellent.</p>
 
 <h4 id="example-2">Example <sup>2</sup>
 </h4>
-<p>User-defined reusable query expressions.</p>
-<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">namespace</span> <span class="nn">Application.Products.Queries</span>
+<p>User-defined reusable query expression filters.</p>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">var</span> <span class="n">products</span> <span class="p">=</span> <span class="n">db</span><span class="p">.</span><span class="n">Products</span><span class="p">.</span><span class="nf">Active</span><span class="p">()</span>
+                 <span class="p">.</span><span class="nf">ForSupplier</span><span class="p">(</span><span class="n">supplierId</span><span class="p">)</span>
+                 <span class="p">.</span><span class="nf">Trending</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
+                 <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
+</code></pre></div></div>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">QueryExtensions</span>
 <span class="p">{</span>
-    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">QueryExtensions</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="nf">Active</span><span class="p">(</span>
+        <span class="k">this</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="n">query</span><span class="p">)</span>
+    <span class="p">{</span> 
+        <span class="k">return</span> <span class="n">query</span><span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="p">!</span><span class="n">p</span><span class="p">.</span><span class="n">Discontinued</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="nf">ForSupplier</span><span class="p">(</span>
+        <span class="k">this</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="n">query</span><span class="p">,</span> <span class="kt">int</span> <span class="n">id</span><span class="p">)</span>
     <span class="p">{</span>
-        <span class="k">public</span> <span class="k">static</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="nf">ForSupplier</span><span class="p">(</span>
-            <span class="k">this</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="n">query</span><span class="p">,</span> <span class="kt">int</span> <span class="n">id</span><span class="p">)</span> <span class="p">=&gt;</span>
-            <span class="n">query</span><span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="p">!</span><span class="n">p</span><span class="p">.</span><span class="n">Discontinued</span> <span class="p">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">SupplierId</span> <span class="p">=</span> <span class="n">id</span><span class="p">);</span>
-
-        <span class="k">public</span> <span class="k">static</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="nf">Trending</span><span class="p">(</span>
-            <span class="k">this</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="n">query</span><span class="p">,</span> <span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="p">=&gt;</span>
-            <span class="n">query</span><span class="p">.</span><span class="nf">OrderBy</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="n">p</span><span class="p">.</span><span class="n">ModifiedDate</span><span class="p">)</span>
-                 <span class="p">.</span><span class="nf">Take</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">query</span><span class="p">.</span><span class="nf">Where</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="n">p</span><span class="p">.</span><span class="n">SupplierId</span> <span class="p">=</span> <span class="n">id</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="nf">Trending</span><span class="p">(</span>
+        <span class="k">this</span> <span class="n">IQueryable</span><span class="p">&lt;</span><span class="n">Product</span><span class="p">&gt;</span> <span class="n">query</span><span class="p">,</span> <span class="kt">int</span> <span class="n">size</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">query</span><span class="p">.</span><span class="nf">OrderBy</span><span class="p">(</span><span class="n">p</span> <span class="p">=&gt;</span> <span class="n">p</span><span class="p">.</span><span class="n">ModifiedDate</span><span class="p">)</span>
+                    <span class="p">.</span><span class="nf">Take</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>Next is chaining <code class="language-plaintext highlighter-rouge">IQueryable</code> types. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntax so there’s no way of injecting dependencies. I have to break out same extract methods into static methods and pass in the <code class="language-plaintext highlighter-rouge">IQueryable</code> domain-specific entity type as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter and the C# compiler will do the rest for me. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
+<p>Next is <a href="https://martinfowler.com/bliki/FluentInterface.html">Fluent</a> <code class="language-plaintext highlighter-rouge">IQueryable</code> types. Not only it allows chaining methods, but you also have to adhere to a <a href="https://martinfowler.com/bliki/DomainSpecificLanguage.html">domain-specific language</a> to describe methods. I can pass in the <code class="language-plaintext highlighter-rouge">IQueryable</code> domain-specific entity type as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter and the C# compiler will do the rest for me. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
 
-<p><a href="https://github.com/kosalanuwan/vscode-remote-try-webapi/#readme">Have a look at the web-api example</a> to see how I use pipes and fiters with onion architecture.</p>
+<p><a href="https://github.com/kosalanuwan/vscode-remote-try-webapi/#readme">Have a look at the web-api example</a> to see how I use fluent data access queries with pipes and fiters.</p>
 
 
 </article>
