@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202107091419" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202107091550" type="text/css">
 </head>
 
 <body>
@@ -101,7 +101,7 @@
 
 
 <article>
-  <p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/linq/linq-in-csharp">LINQ</a> may look like the best thing every happend to <code class="language-plaintext highlighter-rouge">IEnumerable&lt;&gt;</code> types but it’s getting  all kinds of help from our friends at C#. For the record, it’s the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods">Extension Methods</a> that enabled <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">query functionality</a> without creating new derived types or modifying original types of enumerables.</p>
+  <p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/linq/linq-in-csharp">LINQ</a> may look like the best thing ever happened to <code class="language-plaintext highlighter-rouge">IEnumerable&lt;&gt;</code> types but it’s getting all kinds of help from our friends at C#. For the record, it’s the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods">Extension Methods</a> that enabled <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">query functionality</a> without creating new derived types or modifying original types of enumerables.</p>
 
 <p>I like the idea of writing data access queries as extension methods. It gives the whole thing a very <em>Ubiquitous</em> feel since the LINQ queries are more readable, say, two months from now like <a href="https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29">Uncle Bob say on Clean Code</a>.</p>
 
@@ -110,13 +110,14 @@
 <p>Use of typical LINQ expressions.</p>
 <div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">results</span><span class="p">.</span><span class="nf">Count</span><span class="p">()</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nf">NotFound</span><span class="p">();</span> <span class="p">}</span>
 </code></pre></div></div>
+
 <h4 id="example-2">Example <sup>2</sup>
 </h4>
 <p>Or, use of user-defined fluent queries.</p>
 <div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">results</span><span class="p">.</span><span class="nf">IsEmpty</span><span class="p">())</span> <span class="p">{</span> <span class="k">return</span> <span class="nf">NotFound</span><span class="p">();</span> <span class="p">}</span>
 </code></pre></div></div>
 
-<p>The first thing we are going to need is reusable <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">Lambda expressions</a>. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntex. I can <a href="https://sourcemaking.com/refactoring/consolidate-conditional-expression">consolidate</a> query expressions into static methods so a little <a href="https://sourcemaking.com/refactoring/extract-class">extract method</a> magic is all that is necessary to get started. Excellent.</p>
+<p>The first thing we are going to need is reusable <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#lambdas-with-the-standard-query-operators">Lambda expressions</a>. It’s slightly obnoxious that extension methods require non-nested non-generic static classes. I’m gonna go ahead and say there’s no use of instance methods syntax. I can <a href="https://sourcemaking.com/refactoring/consolidate-conditional-expression">consolidate</a> query expressions into static methods so a little <a href="https://sourcemaking.com/refactoring/extract-class">extract method</a> magic is all that is necessary to get started. Excellent.</p>
 
 <h4 id="example-3">Example <sup>3</sup>
 </h4>
@@ -127,6 +128,7 @@
   <span class="p">.</span><span class="nf">Take</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
   <span class="p">.</span><span class="nf">ToList</span><span class="p">();</span>
 </code></pre></div></div>
+
 <h4 id="example-4">Example <sup>4</sup>
 </h4>
 <p>Or, use user-defined fluent queries as extension methods.</p>
@@ -138,7 +140,7 @@
 
 <p>Next is <a href="https://martinfowler.com/bliki/FluentInterface.html">Fluent</a> <code class="language-plaintext highlighter-rouge">IQueryable&lt;&gt;</code> types. Not only it allows chaining methods, but you also have to adhere to a <a href="https://martinfowler.com/bliki/DomainSpecificLanguage.html">domain-specific language</a> to describe methods. I can pass in the <code class="language-plaintext highlighter-rouge">IQueryable&lt;&gt;</code> domain entity type as the first parameter which the method must operate on. All I have to do is add the <code class="language-plaintext highlighter-rouge">this</code> modifier to the parameter and the C# compiler will do the rest for me. I’m not going to lie, you’d be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing returns.</p>
 
-<p><a href="https://github.com/kosalanuwan/vscode-remote-try-webapi/#readme">Have a look at the web-api example</a> to see how I use fluent data access queries with pipes and fiters.</p>
+<p><a href="https://github.com/kosalanuwan/vscode-remote-try-webapi/#readme">Have a look at the web-api example</a> to see how I use fluent data access queries with pipes and filters.</p>
 
 
 </article>

@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202107091419" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202107091550" type="text/css">
 </head>
 
 <body>
@@ -112,16 +112,16 @@
 <span class="nx">_</span><span class="p">.</span><span class="nx">isblank</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
 </code></pre></div></div>
 
+<p>The first thing we’re going to need is a few utility libraries. Fortunately, GitHub has plenty of <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">opensourced utility libraries</a>. <a href="https://github.com/lodash/lodash">Lodash</a>, <a href="https://github.com/jashkenas/underscore">Underscore.js</a>, <a href="https://github.com/angular/angular.js/">Angular.js</a> code arn’t difficult to understand as <a href="https://github.com/babel/babel">Babel</a> code. So, I can run a search in the repo and it’ll return all of the code snippets and function definitions. Then I can break out the scripts in individual JS files that are in and save them as my own utility belt library. All I need is a little <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">polyfill</a> magic with a <a href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html">namespace</a>, say, <code class="language-plaintext highlighter-rouge">_</code> and we’re set. Moving right along.</p>
+
 <h4 id="example-2">Example <sup>2</sup>
 </h4>
-<p>Or, do the same with mixin and prototype option</p>
+<p>Do the same with mixin and prototype option</p>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">'</span><span class="s1">Hello {0}!</span><span class="dl">'</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
 <span class="dl">'</span><span class="s1">Some teXt to Kebab case</span><span class="dl">'</span><span class="p">.</span><span class="nx">toKebabCase</span><span class="p">();</span>
 <span class="nx">username</span><span class="p">.</span><span class="nx">isblank</span><span class="p">();</span>
 </code></pre></div></div>
-
-<p>The first thing we’re going to need is a few utility libraries. Fortunately, GitHub has plenty of <a href="https://github.com/topics/utilities?l=javascript&amp;o=desc&amp;s=stars">opensourced utility libraries</a>. <a href="https://github.com/lodash/lodash">Lodash</a>, <a href="https://github.com/jashkenas/underscore">Underscore.js</a>, <a href="https://github.com/angular/angular.js/">Angular.js</a> code arn’t difficult to understand as <a href="https://github.com/babel/babel">Babel</a> code. So, I can run a search in the repo and it’ll return all of the code snippets and function definitions. Then I can break out the scripts in individual JS files that are in and save them as my own utility belt library. All I need is a little <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">polyfill</a> magic with a <a href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch13s15.html">namespace</a>, say, <code class="language-plaintext highlighter-rouge">_</code> and we’re set. Moving right along.</p>
 
 <p>Next is <a href="https://developer.mozilla.org/en-US/docs/Glossary/Mixin">Mixin</a>. You can run all the scripts in a namespace and is slightly obnoxious if not available as part of the browser API or native JS object too. You’d be amazed how intense it is to enable both namespace and prototype options. Not only this require a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures">Closure pattern</a>, but you also have to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Emulating_private_methods_with_closures">emulate methods</a>. <a href="https://github.com/esamattis/underscore.string/blob/master/index.js#L105-L140">@esamattis/underscore.string</a> has mixin for <code class="language-plaintext highlighter-rouge">String</code> types. So I’m gonna go ahead and break out that same script and modify my utility script. Excellent.</p>
 
