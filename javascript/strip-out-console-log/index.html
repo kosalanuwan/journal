@@ -32,7 +32,7 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/journal/assets/img/favicon.ico">
   <!-- CSS -->
-  <link rel="stylesheet" href="/journal/assets/css/main.css?202106110800" type="text/css">
+  <link rel="stylesheet" href="/journal/assets/css/main.css?202107091419" type="text/css">
 </head>
 
 <body>
@@ -101,7 +101,7 @@
 
 
 <article>
-  <p>Troubleshooting JavaScript is intense. The truth is, I’m getting all kinds of help from <code class="language-plaintext highlighter-rouge">console</code> methods and I need  to do something to strip out all that in production. Easy enuf, except I have a few dozens of JS files and there’s no way I’m going to go thru each one at a time before every production release. So it’s definitely necessary to break out that build pipeline and add some magic code.</p>
+  <p>Troubleshooting JavaScript is intense. The truth is, I’m getting all kinds of help from <code class="language-plaintext highlighter-rouge">console</code> methods and I need to do something to strip out all that in production. Easy enuf, except I have a few dozens of JS files and there’s no way I’m going to go thru each one at a time before every production release. So it’s definitely necessary to break out that build pipeline and add some magic code.</p>
 
 <h4 id="example-1">Example <sup>1</sup>
 </h4>
@@ -111,16 +111,16 @@
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="o">=</span> <span class="nx">noop</span><span class="p">;</span>
 </code></pre></div></div>
 
+<p>First up is <a href="https://www.habilelabs.io/handling-nulls-in-javascript-using-null-object-design-pattern/">Null Object pattern</a>. JS keep everything weakly typed and dynamic so a little <code class="language-plaintext highlighter-rouge">noop</code> magic script is all that’s necessary to override the <code class="language-plaintext highlighter-rouge">console</code> methods. I’m not going to lie, you’d be amazed how tricky it is to bundle everything together. Not only you have to preppend it to the rest of the JS, but you also have to do it conditionally. I’m gonna go ahead and say it requires a gulp task with a few plugins, so there’s no need of hardcoding a flag on the <code class="language-plaintext highlighter-rouge">noop</code> script for detecting the environment. This may be obnoxious.</p>
+
 <h4 id="example-2">Example <sup>2</sup>
 </h4>
-<p>Or, using gulp to strip out <code class="language-plaintext highlighter-rouge">console</code> methods</p>
+<p>Using gulp to strip out <code class="language-plaintext highlighter-rouge">console</code> methods</p>
 
 <div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gulp build <span class="nt">--no-debug</span>
 </code></pre></div></div>
 
-<p>First up is <a href="https://www.habilelabs.io/handling-nulls-in-javascript-using-null-object-design-pattern/">Null Object pattern</a>. JS keep everything weakly typed and dynamic so a little <code class="language-plaintext highlighter-rouge">noop</code> magic script is all that’s necessary to override the <code class="language-plaintext highlighter-rouge">console</code> methods. I’m not going to lie, you’d be amazed how tricky it is to bundle everything together. Not only you have to preppend it to the rest of the JS, but you also have to do it conditionally. I’m gonna go ahead and say it requires a gulp task with a few plugins, so there’s no need of hardcoding a flag on the <code class="language-plaintext highlighter-rouge">noop</code> script for detecting the environment. This may be obnoxious.</p>
-
-<p>Stripping out <code class="language-plaintext highlighter-rouge">console</code> methods is a little better. This still make you write gulp tasks, but it gives the whole thing a very <em>Minimalistic</em> feel since there’s no need to preppend any <code class="language-plaintext highlighter-rouge">noop</code> scripts. The first thing we’re going to need is a gulp task to strip out <code class="language-plaintext highlighter-rouge">console</code> methods and <code class="language-plaintext highlighter-rouge">alert</code> statements. Fortunately, gulp has a plugin for this so a little <code class="language-plaintext highlighter-rouge">gulp-strip-debug</code> magic is all that’s necessary to clean up the entire JS bundle. I can run the build pipeline with <code class="language-plaintext highlighter-rouge">--no-debug</code> option like they do it on command line tools, and <code class="language-plaintext highlighter-rouge">yargs</code> will parse options for me. And I can use <code class="language-plaintext highlighter-rouge">gulp-if</code> to strip out conditionally. Excellent.</p>
+<p>Stripping out <code class="language-plaintext highlighter-rouge">console</code> methods is a little better. This still makes you write gulp tasks, but it gives the whole thing a very <em>Minimalistic</em> feel since there’s no need to prepend any <code class="language-plaintext highlighter-rouge">noop</code> scripts. The first thing we’re going to need is a gulp task to strip out <code class="language-plaintext highlighter-rouge">console</code> methods and <code class="language-plaintext highlighter-rouge">alert</code> statements. Fortunately, there’s a plugin for this so a little <code class="language-plaintext highlighter-rouge">gulp-strip-debug</code> magic is all that’s necessary to clean up the entire JS bundle. I can run the build pipeline with <code class="language-plaintext highlighter-rouge">--no-debug</code> option like they do it in command-line tools, and <code class="language-plaintext highlighter-rouge">yargs</code> will parse options for me. And I can use <code class="language-plaintext highlighter-rouge">gulp-if</code> to strip out conditionally. Excellent.</p>
 
 <p><a href="https://github.com/kosalanuwan/vanilla-js-snippets/#readme">Here’s the complete source code</a> I pulled together for my own sanity.</p>
 
